@@ -28,3 +28,13 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+
+# Mac metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
