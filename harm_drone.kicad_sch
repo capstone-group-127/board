@@ -82,6 +82,44 @@
 		)
 	)
 	(sheet
+		(at 104.14 74.93)
+		(size 72.39 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f41fec2-6210-43dd-9328-85befbc13075")
+		(property "Sheetname" "USB-Serial"
+			(at 104.14 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-serial.kicad_sch"
+			(at 104.14 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 24.13 74.93)
 		(size 68.58 44.45)
 		(fields_autoplaced yes)

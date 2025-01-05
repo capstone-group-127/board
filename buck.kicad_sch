@@ -1283,7 +1283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "087f8adf-3ae9-468a-8670-b8cf6ccaea06")
-		(property "Reference" "R1"
+		(property "Reference" "R?"
 			(at 203.2 96.5199 90)
 			(effects
 				(font
@@ -1387,6 +1387,12 @@
 			(uuid "74365c0a-d383-4ea9-b187-9d76925e04c6")
 		)
 		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/9be4028a-d272-4251-aa6b-aa28299b7605"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/973177bf-fda4-45db-b70f-878876a688dd"
 					(reference "R1")
@@ -1405,7 +1411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12a87b50-7cf0-4067-ac68-6f074f880d12")
-		(property "Reference" "C3"
+		(property "Reference" "C?"
 			(at 233.68 105.4099 90)
 			(effects
 				(font
@@ -1509,6 +1515,12 @@
 			(uuid "a650a0cc-29c7-49eb-b939-34d6435a9f4e")
 		)
 		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/9be4028a-d272-4251-aa6b-aa28299b7605"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "buck"
 				(path "/973177bf-fda4-45db-b70f-878876a688dd"
 					(reference "C3")
@@ -1527,7 +1539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e78a45a-b2cc-478a-a9ba-e28143eed2a4")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR?"
 			(at 143.51 114.3 0)
 			(effects
 				(font
@@ -1575,6 +1587,12 @@
 			(uuid "5a97e0a0-2707-47aa-bf31-0bd70688ec56")
 		)
 		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/9be4028a-d272-4251-aa6b-aa28299b7605"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/973177bf-fda4-45db-b70f-878876a688dd"
 					(reference "#PWR02")
@@ -1593,7 +1611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54ed8556-fe1a-4fe0-8526-f1fb2975c740")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR?"
 			(at 214.63 138.43 0)
 			(effects
 				(font
@@ -1641,6 +1659,12 @@
 			(uuid "65f1ee3f-96fe-4c70-b8aa-b22b6a114bfa")
 		)
 		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/9be4028a-d272-4251-aa6b-aa28299b7605"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "buck"
 				(path "/973177bf-fda4-45db-b70f-878876a688dd"
 					(reference "#PWR03")
@@ -1659,7 +1683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b1cc09f-1888-4e74-85a5-137a21eeff91")
-		(property "Reference" "C2"
+		(property "Reference" "C?"
 			(at 163.83 74.93 0)
 			(effects
 				(font
@@ -1761,6 +1785,12 @@
 			(uuid "58dd3229-6f4a-4a6a-b53a-e58b4354d5d0")
 		)
 		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/9be4028a-d272-4251-aa6b-aa28299b7605"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "buck"
 				(path "/973177bf-fda4-45db-b70f-878876a688dd"
 					(reference "C2")
@@ -1779,7 +1809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9117876d-b9cf-4107-bed7-269dbbb9d788")
-		(property "Reference" "L1"
+		(property "Reference" "L?"
 			(at 184.15 80.01 0)
 			(effects
 				(font
@@ -1881,6 +1911,12 @@
 			(uuid "9eb02e1a-536e-44f8-9d64-e1e8e2069c7a")
 		)
 		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/9be4028a-d272-4251-aa6b-aa28299b7605"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/973177bf-fda4-45db-b70f-878876a688dd"
 					(reference "L1")
@@ -1899,7 +1935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "959c6888-a8d2-48a9-88c2-20c013820acc")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR?"
 			(at 124.46 77.47 0)
 			(effects
 				(font
@@ -1947,6 +1983,12 @@
 			(uuid "f4bb67e8-c994-4452-8823-24bccf36bb28")
 		)
 		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/9be4028a-d272-4251-aa6b-aa28299b7605"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/973177bf-fda4-45db-b70f-878876a688dd"
 					(reference "#PWR01")
@@ -1965,7 +2007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a07d24e0-5054-4b3f-8c43-f6445a353081")
-		(property "Reference" "C4"
+		(property "Reference" "C?"
 			(at 218.44 105.4099 90)
 			(effects
 				(font
@@ -2069,6 +2111,12 @@
 			(uuid "b997f909-c4c6-4f0d-8cc7-ed30315e6721")
 		)
 		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/9be4028a-d272-4251-aa6b-aa28299b7605"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "buck"
 				(path "/973177bf-fda4-45db-b70f-878876a688dd"
 					(reference "C4")
@@ -2087,7 +2135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9d1377a-90b1-4cd0-8c65-67eb40fe2683")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 143.51 74.93 0)
 			(effects
 				(font
@@ -2151,6 +2199,12 @@
 			(uuid "a22c6884-371e-44bb-ace2-779b7689be50")
 		)
 		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/9be4028a-d272-4251-aa6b-aa28299b7605"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/973177bf-fda4-45db-b70f-878876a688dd"
 					(reference "U1")
@@ -2169,7 +2223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dee9bae1-b944-437e-8d8a-ee7555043848")
-		(property "Reference" "C1"
+		(property "Reference" "C?"
 			(at 128.27 90.1699 90)
 			(effects
 				(font
@@ -2273,6 +2327,12 @@
 			(uuid "1e8856b5-0356-4efb-af26-0ff45e483b95")
 		)
 		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/9be4028a-d272-4251-aa6b-aa28299b7605"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/973177bf-fda4-45db-b70f-878876a688dd"
 					(reference "C1")
@@ -2291,7 +2351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6beb084-8705-4363-a406-b05b2a8a0072")
-		(property "Reference" "R2"
+		(property "Reference" "R?"
 			(at 203.2 118.1099 90)
 			(effects
 				(font
@@ -2395,6 +2455,12 @@
 			(uuid "c84d2dc8-9e92-4739-bf5f-fac28b36300e")
 		)
 		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/9be4028a-d272-4251-aa6b-aa28299b7605"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/973177bf-fda4-45db-b70f-878876a688dd"
 					(reference "R2")

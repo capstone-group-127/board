@@ -596,6 +596,10 @@
     [
       "9ace3f70-8aef-468d-a7a3-d32e6ab166be",
       "SPI"
+    ],
+    [
+      "8f41fec2-6210-43dd-9328-85befbc13075",
+      "USB-Serial"
     ]
   ],
   "text_variables": {}
