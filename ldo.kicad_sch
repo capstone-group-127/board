@@ -194,6 +194,188 @@
 				)
 			)
 		)
+		(symbol "group127:XC6210A332MR-G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X?"
+				(at -0.254 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "~"
+				(at 6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "XC6210A332MR-G1"
+				(at 0.762 13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/760/xc6210-3371396.pdf"
+				(at -1.27 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LDO Voltage Regulators 700mA High Speed LDO Regulator"
+				(at -0.762 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO*263*TabPin8*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XC6210A332MR-G_0_1"
+				(rectangle
+					(start -6.35 5.08)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "XC6210A332MR-G_1_1"
+				(pin power_in line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "CE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "Vss"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GNDPWR"
 			(power)
 			(pin_numbers hide)
@@ -484,14 +666,42 @@
 		)
 	)
 	(junction
-		(at 119.38 90.17)
+		(at 140.97 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "39e55311-aa6d-4274-bb9d-3d5f5a6f6f9a")
+		(uuid "12d1c772-ebad-456e-b2fb-611beb8a921b")
+	)
+	(junction
+		(at 149.86 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a0dc19c-d06d-4057-a1a4-c43cf148fdb9")
+	)
+	(junction
+		(at 119.38 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2de702aa-a200-4fa4-9eb2-bc5dfb32da97")
+	)
+	(junction
+		(at 187.96 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dafbc64-9e33-47ac-84fe-7592a88cdd84")
 	)
 	(wire
 		(pts
-			(xy 119.38 90.17) (xy 140.97 90.17)
+			(xy 187.96 82.55) (xy 187.96 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b96b4b9-dd7d-42ad-be60-7d95629c7c89")
+	)
+	(wire
+		(pts
+			(xy 119.38 80.01) (xy 140.97 80.01)
 		)
 		(stroke
 			(width 0)
@@ -508,6 +718,26 @@
 			(type default)
 		)
 		(uuid "25678a9e-dbee-4cec-945b-7e9e2a7d90b2")
+	)
+	(wire
+		(pts
+			(xy 140.97 80.01) (xy 149.86 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27736588-df4c-4886-bf49-5c0c40010578")
+	)
+	(wire
+		(pts
+			(xy 119.38 80.01) (xy 119.38 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30cd0a33-b2e9-4f19-9370-c2bcf7bc0a67")
 	)
 	(wire
 		(pts
@@ -531,7 +761,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 71.12) (xy 119.38 90.17)
+			(xy 119.38 71.12) (xy 119.38 80.01)
 		)
 		(stroke
 			(width 0)
@@ -541,7 +771,27 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 90.17) (xy 140.97 97.79)
+			(xy 175.26 82.55) (xy 187.96 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4d4f64-6566-4190-ba0a-58d9c3f0ed56")
+	)
+	(wire
+		(pts
+			(xy 157.48 85.09) (xy 149.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916f6160-32b7-4ea4-b99e-e09e22ef6e45")
+	)
+	(wire
+		(pts
+			(xy 140.97 80.01) (xy 140.97 97.79)
 		)
 		(stroke
 			(width 0)
@@ -561,13 +811,43 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 90.17) (xy 119.38 116.84)
+			(xy 179.07 85.09) (xy 175.26 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac5437dc-e758-4a54-b489-4a7350b6fe1d")
+		(uuid "ba38068f-3232-4865-acdb-abd96320a7cf")
+	)
+	(wire
+		(pts
+			(xy 149.86 85.09) (xy 149.86 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff97eb0-853a-4916-8f3d-05dab1ac4024")
+	)
+	(wire
+		(pts
+			(xy 149.86 80.01) (xy 157.48 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ab7847-8cfa-4fce-ac82-0dd9cf0169e6")
+	)
+	(wire
+		(pts
+			(xy 179.07 90.17) (xy 179.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff33fd41-676f-42b0-b9bf-83413abe279f")
 	)
 	(global_label "Output"
 		(shape output)
@@ -968,6 +1248,88 @@
 		)
 	)
 	(symbol
+		(lib_id "group127:XC6210A332MR-G")
+		(at 166.37 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b25e586e-510c-4b08-9917-f46ddf908221")
+		(property "Reference" "X?"
+			(at 166.116 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 172.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "XC6210A332MR-G1"
+			(at 167.132 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/760/xc6210-3371396.pdf"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LDO Voltage Regulators 700mA High Speed LDO Regulator"
+			(at 165.608 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "369e7702-0be1-43f7-be01-50e2bd5bd87d")
+		)
+		(pin "6"
+			(uuid "7840004f-5e66-4ad1-8b14-924a4ea6a6e2")
+		)
+		(pin "2"
+			(uuid "b1f5b12a-9300-4b7d-a774-5e0a80d4d99d")
+		)
+		(pin "5"
+			(uuid "569ae4d5-993c-44a9-8dcf-38ada3907b15")
+		)
+		(pin "1"
+			(uuid "b41b0b88-f99e-448d-bba1-844d261036bb")
+		)
+		(pin "3"
+			(uuid "ed66efdf-d657-4e8c-8ef5-70cfcc28dfee")
+		)
+		(instances
+			(project ""
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/06c65770-b1a9-4683-9717-b848c80eccc4"
+					(reference "X?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 187.96 116.84 0)
 		(unit 1)
@@ -1101,7 +1463,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 162.56 116.84 0)
+		(at 179.07 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1110,7 +1472,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5a8100c-8f91-46ad-95a2-8cad587ae095")
 		(property "Reference" "#PWR03"
-			(at 162.56 121.92 0)
+			(at 179.07 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1119,7 +1481,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 162.433 120.65 0)
+			(at 178.943 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1127,7 +1489,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 118.11 0)
+			(at 179.07 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1136,7 +1498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 118.11 0)
+			(at 179.07 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,7 +1507,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 162.56 116.84 0)
+			(at 179.07 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
