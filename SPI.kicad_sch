@@ -1312,7 +1312,7 @@
 		)
 		(uuid "ed807b8a-239d-49a3-91c3-5b20d6613f72")
 	)
-	(global_label "+3.3V"
+	(global_label "3V3"
 		(shape input)
 		(at 163.83 49.53 0)
 		(effects
@@ -1352,7 +1352,7 @@
 			)
 		)
 	)
-	(global_label "MISO"
+	(global_label "MISO 1"
 		(shape bidirectional)
 		(at 123.19 49.53 180)
 		(effects
@@ -1372,7 +1372,7 @@
 			)
 		)
 	)
-	(global_label "SPI CLOCK"
+	(global_label "SPI CLOCK 1"
 		(shape input)
 		(at 163.83 52.07 0)
 		(effects
@@ -1412,7 +1412,7 @@
 			)
 		)
 	)
-	(global_label "+3.3V"
+	(global_label "3V3"
 		(shape input)
 		(at 123.19 52.07 180)
 		(effects
@@ -1432,7 +1432,7 @@
 			)
 		)
 	)
-	(global_label "CMD"
+	(global_label "MOSI 2"
 		(shape bidirectional)
 		(at 54.61 83.82 180)
 		(effects
@@ -1452,7 +1452,7 @@
 			)
 		)
 	)
-	(global_label "+3.3V"
+	(global_label "3V3"
 		(shape input)
 		(at 168.91 115.57 0)
 		(effects
@@ -1472,7 +1472,7 @@
 			)
 		)
 	)
-	(global_label "MOSI"
+	(global_label "MOSI 1"
 		(shape input)
 		(at 163.83 54.61 0)
 		(effects
@@ -1492,7 +1492,7 @@
 			)
 		)
 	)
-	(global_label "+3.3V"
+	(global_label "3V3"
 		(shape input)
 		(at 54.61 73.66 180)
 		(effects
@@ -1512,7 +1512,7 @@
 			)
 		)
 	)
-	(global_label "+3.3V"
+	(global_label "3V3"
 		(shape input)
 		(at 168.91 118.11 0)
 		(effects
@@ -1552,7 +1552,7 @@
 			)
 		)
 	)
-	(global_label "+3.3V"
+	(global_label "3V3"
 		(shape input)
 		(at 30.48 101.6 180)
 		(effects
@@ -1572,7 +1572,7 @@
 			)
 		)
 	)
-	(global_label "+3.3V"
+	(global_label "3V3"
 		(shape input)
 		(at 163.83 46.99 0)
 		(effects
@@ -1592,7 +1592,7 @@
 			)
 		)
 	)
-	(global_label "MOSI"
+	(global_label "MOSI 1"
 		(shape input)
 		(at 168.91 123.19 0)
 		(effects
@@ -1612,7 +1612,7 @@
 			)
 		)
 	)
-	(global_label "DAT0"
+	(global_label "MISO 2"
 		(shape bidirectional)
 		(at 54.61 88.9 180)
 		(effects
@@ -1632,7 +1632,7 @@
 			)
 		)
 	)
-	(global_label "MISO"
+	(global_label "MISO 1"
 		(shape bidirectional)
 		(at 123.19 118.11 180)
 		(effects
@@ -1672,7 +1672,7 @@
 			)
 		)
 	)
-	(global_label "SPI CLOCK"
+	(global_label "SPI CLOCK 2"
 		(shape input)
 		(at 54.61 78.74 180)
 		(effects
@@ -1692,27 +1692,7 @@
 			)
 		)
 	)
-	(global_label "CD/DAT3"
-		(shape bidirectional)
-		(at 54.61 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fadbc14c-06b4-479a-9e19-422093d8c083")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.61 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI CLOCK"
+	(global_label "SPI CLOCK 1"
 		(shape input)
 		(at 168.91 120.65 0)
 		(effects
@@ -1732,6 +1712,26 @@
 			)
 		)
 	)
+	(global_label "CS SD Card"
+		(shape bidirectional)
+		(at 54.61 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd53c4f3-3dcb-4761-8054-a76fa3f26052")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 54.61 124.46 0)
@@ -1742,7 +1742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "065a9c4f-1cd3-47f8-974c-c63e817586e5")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR?"
 			(at 54.61 130.81 0)
 			(effects
 				(font
@@ -1790,6 +1790,12 @@
 			(uuid "7adb5b38-c822-4493-834b-5fa500febcf8")
 		)
 		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/9ace3f70-8aef-468d-a7a3-d32e6ab166be"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "SPI"
 				(path "/a1dacf80-5959-4abc-a7b3-75daab69d2bc"
 					(reference "#PWR02")
@@ -1952,7 +1958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3753c10b-886c-469f-ae0b-f1ff2549bcb0")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR?"
 			(at 123.19 63.5 0)
 			(effects
 				(font
@@ -2000,6 +2006,12 @@
 			(uuid "48c7d060-3abf-43c0-9f1d-da37de20180e")
 		)
 		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/9ace3f70-8aef-468d-a7a3-d32e6ab166be"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "SPI"
 				(path "/a1dacf80-5959-4abc-a7b3-75daab69d2bc"
 					(reference "#PWR03")
@@ -2018,7 +2030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a17ca69-d60f-48ce-9e29-02a4833f1f6e")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR?"
 			(at 123.19 132.08 0)
 			(effects
 				(font
@@ -2066,6 +2078,12 @@
 			(uuid "50290597-c4ec-4c7b-8644-0b4a83fe7bc2")
 		)
 		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/9ace3f70-8aef-468d-a7a3-d32e6ab166be"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a1dacf80-5959-4abc-a7b3-75daab69d2bc"
 					(reference "#PWR01")
@@ -2333,10 +2351,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c95006b0-2f5c-4e34-ab6d-46b4b9b6d795")
 		(property "Reference" "R?"
-			(at 39.37 95.25 0)
+			(at 39.624 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,7 +2361,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 39.37 97.79 0)
+			(at 39.624 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
