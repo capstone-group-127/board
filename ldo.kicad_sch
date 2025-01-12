@@ -653,7 +653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19afed87-df81-427e-a0b3-a8dbe9291a26")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR020"
 			(at 179.07 116.84 0)
 			(effects
 				(font
@@ -703,7 +703,7 @@
 		(instances
 			(project "harm_drone"
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/06c65770-b1a9-4683-9717-b848c80eccc4"
-					(reference "#PWR?")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -725,7 +725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ef3e8c5-36a1-4e21-9120-27175135b307")
-		(property "Reference" "C2"
+		(property "Reference" "C6"
 			(at 154.94 102.8699 90)
 			(effects
 				(font
@@ -743,7 +743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X94N"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 54.94 106.68 0)
 			(effects
 				(font
@@ -831,7 +831,7 @@
 		(instances
 			(project "harm_drone"
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/06c65770-b1a9-4683-9717-b848c80eccc4"
-					(reference "C2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -853,7 +853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47b5aa11-139d-4185-883e-297f23cf1dd9")
-		(property "Reference" "C1"
+		(property "Reference" "C7"
 			(at 182.88 102.8699 90)
 			(effects
 				(font
@@ -871,7 +871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC2012X94N"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 82.88 106.68 0)
 			(effects
 				(font
@@ -959,7 +959,7 @@
 		(instances
 			(project ""
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/06c65770-b1a9-4683-9717-b848c80eccc4"
-					(reference "C1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -981,7 +981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "658e3522-3ad3-40ae-999d-1436736737f0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR018"
 			(at 151.13 123.19 0)
 			(effects
 				(font
@@ -1031,7 +1031,7 @@
 		(instances
 			(project "harm_drone"
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/06c65770-b1a9-4683-9717-b848c80eccc4"
-					(reference "#PWR?")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -1053,7 +1053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b25e586e-510c-4b08-9917-f46ddf908221")
-		(property "Reference" "X?"
+		(property "Reference" "IC4"
 			(at 166.116 75.184 0)
 			(effects
 				(font
@@ -1062,7 +1062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "LDO"
 			(at 172.72 76.2 0)
 			(effects
 				(font
@@ -1071,7 +1071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "XC6210A332MR-G1"
+		(property "Footprint" ""
 			(at 167.132 68.834 0)
 			(effects
 				(font
@@ -1119,7 +1119,7 @@
 		(instances
 			(project ""
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/06c65770-b1a9-4683-9717-b848c80eccc4"
-					(reference "X?")
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -1141,7 +1141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f29d472c-dfe0-4823-b54a-b0fd43a0ade1")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR019"
 			(at 175.26 91.44 0)
 			(effects
 				(font
@@ -1191,7 +1191,7 @@
 		(instances
 			(project "harm_drone"
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/06c65770-b1a9-4683-9717-b848c80eccc4"
-					(reference "#PWR?")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
