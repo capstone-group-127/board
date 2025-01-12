@@ -946,56 +946,62 @@
 		)
 	)
 	(junction
-		(at 214.63 128.27)
+		(at 186.69 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d03e731-de1a-4334-a8d0-0a9d364e04a0")
 	)
 	(junction
-		(at 200.66 106.68)
+		(at 172.72 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "583fd3f9-24f9-4893-a13b-c9ed10491912")
 	)
 	(junction
-		(at 214.63 86.36)
+		(at 201.93 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ffd3f65-3026-43f7-a90e-d9bc90a0f8b8")
+	)
+	(junction
+		(at 186.69 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8e4e095-4669-4457-891a-52fa7c304a56")
 	)
 	(junction
-		(at 124.46 82.55)
+		(at 96.52 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de14957c-849b-47ac-84ed-97af6eb6e054")
 	)
 	(junction
-		(at 200.66 86.36)
+		(at 172.72 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfffee31-5401-48ad-8fa2-448565df4ef6")
 	)
 	(junction
-		(at 143.51 101.6)
+		(at 115.57 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e34df269-5927-46d9-bd9a-1e590cf0dc4e")
 	)
 	(junction
-		(at 133.35 82.55)
+		(at 105.41 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5b6a95c-c7e1-4c37-8507-3d810b90f14b")
 	)
 	(junction
-		(at 170.18 86.36)
+		(at 142.24 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7178f20-c23a-4b26-b136-74d94636194f")
 	)
 	(wire
 		(pts
-			(xy 153.67 85.09) (xy 158.75 85.09)
+			(xy 125.73 86.36) (xy 130.81 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1005,7 +1011,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 73.66) (xy 124.46 82.55)
+			(xy 201.93 87.63) (xy 201.93 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23dc180a-c0ea-4afc-8f1f-f4b4abc81b12")
+	)
+	(wire
+		(pts
+			(xy 96.52 74.93) (xy 96.52 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1015,7 +1031,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 82.55) (xy 124.46 85.09)
+			(xy 96.52 83.82) (xy 96.52 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1025,7 +1041,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 113.03) (xy 214.63 128.27)
+			(xy 186.69 114.3) (xy 186.69 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1035,7 +1051,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 106.68) (xy 153.67 87.63)
+			(xy 125.73 107.95) (xy 125.73 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1045,7 +1061,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 86.36) (xy 173.99 86.36)
+			(xy 142.24 87.63) (xy 146.05 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1055,7 +1071,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 86.36) (xy 170.18 86.36)
+			(xy 130.81 87.63) (xy 142.24 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1065,7 +1081,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 92.71) (xy 143.51 101.6)
+			(xy 115.57 93.98) (xy 115.57 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1075,7 +1091,17 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 128.27) (xy 214.63 132.08)
+			(xy 201.93 87.63) (xy 218.44 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ccf21b-80a2-45b1-bbf3-04452e893581")
+	)
+	(wire
+		(pts
+			(xy 186.69 129.54) (xy 186.69 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1085,17 +1111,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 86.36) (xy 229.87 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7369b80e-c9f7-4368-a683-2aa1005063c2")
-	)
-	(wire
-		(pts
-			(xy 133.35 82.55) (xy 133.35 87.63)
+			(xy 105.41 83.82) (xy 105.41 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1105,7 +1121,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 86.36) (xy 200.66 86.36)
+			(xy 166.37 87.63) (xy 172.72 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1115,7 +1131,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 107.95) (xy 143.51 101.6)
+			(xy 115.57 109.22) (xy 115.57 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1125,7 +1141,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 106.68) (xy 200.66 110.49)
+			(xy 172.72 107.95) (xy 172.72 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1135,7 +1151,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 86.36) (xy 170.18 82.55)
+			(xy 142.24 87.63) (xy 142.24 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1145,7 +1161,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 100.33) (xy 214.63 86.36)
+			(xy 186.69 101.6) (xy 186.69 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1155,7 +1171,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 86.36) (xy 214.63 86.36)
+			(xy 172.72 87.63) (xy 186.69 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1165,7 +1181,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 113.03) (xy 229.87 128.27)
+			(xy 201.93 114.3) (xy 201.93 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1175,7 +1191,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 86.36) (xy 229.87 86.36)
+			(xy 186.69 87.63) (xy 201.93 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1185,7 +1201,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 82.55) (xy 157.48 82.55)
+			(xy 125.73 83.82) (xy 129.54 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1195,7 +1211,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 106.68) (xy 153.67 106.68)
+			(xy 172.72 107.95) (xy 125.73 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1205,7 +1221,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 101.6) (xy 124.46 97.79)
+			(xy 96.52 102.87) (xy 96.52 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1215,7 +1231,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 101.6) (xy 124.46 101.6)
+			(xy 115.57 102.87) (xy 96.52 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1225,7 +1241,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 128.27) (xy 200.66 128.27)
+			(xy 186.69 129.54) (xy 172.72 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1235,7 +1251,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 86.36) (xy 200.66 88.9)
+			(xy 172.72 87.63) (xy 172.72 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1245,7 +1261,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 82.55) (xy 133.35 82.55)
+			(xy 96.52 83.82) (xy 105.41 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1255,7 +1271,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 128.27) (xy 214.63 128.27)
+			(xy 201.93 129.54) (xy 186.69 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1265,7 +1281,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 85.09) (xy 158.75 86.36)
+			(xy 130.81 86.36) (xy 130.81 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1273,9 +1289,31 @@
 		)
 		(uuid "fd094516-831d-440b-bb3f-7d74601251ba")
 	)
+	(global_label "5V"
+		(shape input)
+		(at 218.44 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f03ab39-f94e-4f79-9680-bf90a4dfd49a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.7233 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "group127:Resistor")
-		(at 200.66 106.68 90)
+		(at 172.72 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1284,7 +1322,7 @@
 		(fields_autoplaced yes)
 		(uuid "087f8adf-3ae9-468a-8670-b8cf6ccaea06")
 		(property "Reference" "R?"
-			(at 203.2 96.5199 90)
+			(at 175.26 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1293,7 +1331,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 203.2 99.0599 90)
+			(at 175.26 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1302,7 +1340,7 @@
 			)
 		)
 		(property "Footprint" "RESC2012X60N"
-			(at 296.85 92.71 0)
+			(at 268.91 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1312,7 +1350,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/pdfs/chpreztr.pdf"
-			(at 396.85 92.71 0)
+			(at 368.91 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1322,7 +1360,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 270ohm 1%"
-			(at 200.66 106.68 0)
+			(at 172.72 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1331,7 +1369,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at 596.85 92.71 0)
+			(at 568.91 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1379,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-CR0805FX-2700ELF"
-			(at 696.85 92.71 0)
+			(at 668.91 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1351,7 +1389,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CR0805-FX-2700ELF?qs=4vGXhLEMbUwfoxAMFQ260A%3D%3D"
-			(at 796.85 92.71 0)
+			(at 768.91 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,7 +1399,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 896.85 92.71 0)
+			(at 868.91 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1371,7 +1409,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CR0805-FX-2700ELF"
-			(at 996.85 92.71 0)
+			(at 968.91 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +1441,7 @@
 	)
 	(symbol
 		(lib_id "group127:0.1uFCap")
-		(at 229.87 100.33 270)
+		(at 201.93 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1412,7 +1450,7 @@
 		(fields_autoplaced yes)
 		(uuid "12a87b50-7cf0-4067-ac68-6f074f880d12")
 		(property "Reference" "C?"
-			(at 233.68 105.4099 90)
+			(at 205.74 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,7 +1459,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 233.68 107.9499 90)
+			(at 205.74 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1430,7 +1468,7 @@
 			)
 		)
 		(property "Footprint" "CAPC2012X94N"
-			(at 133.68 109.22 0)
+			(at 105.74 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,7 +1478,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
-			(at 33.68 109.22 0)
+			(at 5.74 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1450,7 +1488,7 @@
 			)
 		)
 		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
-			(at 229.87 100.33 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1459,7 +1497,7 @@
 			)
 		)
 		(property "Height" "0.94"
-			(at -166.32 109.22 0)
+			(at -194.26 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1469,7 +1507,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-08055C104K"
-			(at -266.32 109.22 0)
+			(at -294.26 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1517,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
-			(at -366.32 109.22 0)
+			(at -394.26 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1489,7 +1527,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -466.32 109.22 0)
+			(at -494.26 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1499,7 +1537,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "08055C104KAT2A"
-			(at -566.32 109.22 0)
+			(at -594.26 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,7 +1569,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 107.95 0)
+		(at 115.57 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1540,7 +1578,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e78a45a-b2cc-478a-a9ba-e28143eed2a4")
 		(property "Reference" "#PWR?"
-			(at 143.51 114.3 0)
+			(at 115.57 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,7 +1587,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 113.03 0)
+			(at 115.57 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,7 +1595,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 107.95 0)
+			(at 115.57 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,7 +1604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 107.95 0)
+			(at 115.57 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,7 +1613,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 107.95 0)
+			(at 115.57 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +1641,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 132.08 0)
+		(at 186.69 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1612,7 +1650,7 @@
 		(fields_autoplaced yes)
 		(uuid "54ed8556-fe1a-4fe0-8526-f1fb2975c740")
 		(property "Reference" "#PWR?"
-			(at 214.63 138.43 0)
+			(at 186.69 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1621,7 +1659,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 137.16 0)
+			(at 186.69 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,7 +1667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 132.08 0)
+			(at 186.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1638,7 +1676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 132.08 0)
+			(at 186.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1647,7 +1685,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 132.08 0)
+			(at 186.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +1713,7 @@
 	)
 	(symbol
 		(lib_id "group127:0.1uFCap")
-		(at 157.48 82.55 0)
+		(at 129.54 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1684,7 +1722,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b1cc09f-1888-4e74-85a5-137a21eeff91")
 		(property "Reference" "C?"
-			(at 163.83 74.93 0)
+			(at 135.89 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +1730,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 163.83 77.47 0)
+			(at 135.89 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1700,7 +1738,7 @@
 			)
 		)
 		(property "Footprint" "CAPC2012X94N"
-			(at 166.37 178.74 0)
+			(at 138.43 180.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,7 +1748,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
-			(at 166.37 278.74 0)
+			(at 138.43 280.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +1758,7 @@
 			)
 		)
 		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
-			(at 157.48 82.55 0)
+			(at 129.54 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,7 +1767,7 @@
 			)
 		)
 		(property "Height" "0.94"
-			(at 166.37 478.74 0)
+			(at 138.43 480.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +1777,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-08055C104K"
-			(at 166.37 578.74 0)
+			(at 138.43 580.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1749,7 +1787,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
-			(at 166.37 678.74 0)
+			(at 138.43 680.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,7 +1797,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 166.37 778.74 0)
+			(at 138.43 780.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1769,7 +1807,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "08055C104KAT2A"
-			(at 166.37 878.74 0)
+			(at 138.43 880.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,7 +1839,7 @@
 	)
 	(symbol
 		(lib_id "group127:Inductor")
-		(at 173.99 86.36 0)
+		(at 146.05 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1810,7 +1848,7 @@
 		(fields_autoplaced yes)
 		(uuid "9117876d-b9cf-4107-bed7-269dbbb9d788")
 		(property "Reference" "L?"
-			(at 184.15 80.01 0)
+			(at 156.21 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +1856,7 @@
 			)
 		)
 		(property "Value" "6.8uH"
-			(at 184.15 82.55 0)
+			(at 156.21 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1826,7 +1864,7 @@
 			)
 		)
 		(property "Footprint" "7447707068"
-			(at 190.5 182.55 0)
+			(at 162.56 183.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,7 +1874,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/7447707068.pdf"
-			(at 190.5 282.55 0)
+			(at 162.56 283.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,7 +1884,7 @@
 			)
 		)
 		(property "Description" "Fixed Inductors WE-PD 6.8uH 6.8A DCR=14mOhms AECQ200"
-			(at 173.99 86.36 0)
+			(at 146.05 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,7 +1893,7 @@
 			)
 		)
 		(property "Height" "8"
-			(at 190.5 482.55 0)
+			(at 162.56 483.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +1903,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-7447707068"
-			(at 190.5 582.55 0)
+			(at 162.56 583.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,7 +1913,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7447707068?qs=DPoM0jnrROWfbxCQMEiz4A%3D%3D"
-			(at 190.5 682.55 0)
+			(at 162.56 683.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1885,7 +1923,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 190.5 782.55 0)
+			(at 162.56 783.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,7 +1933,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "7447707068"
-			(at 190.5 882.55 0)
+			(at 162.56 883.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,7 +1965,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 124.46 73.66 0)
+		(at 96.52 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1936,7 +1974,7 @@
 		(fields_autoplaced yes)
 		(uuid "959c6888-a8d2-48a9-88c2-20c013820acc")
 		(property "Reference" "#PWR?"
-			(at 124.46 77.47 0)
+			(at 96.52 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,7 +1983,7 @@
 			)
 		)
 		(property "Value" "15V"
-			(at 124.46 68.58 0)
+			(at 96.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,7 +1991,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 73.66 0)
+			(at 96.52 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1962,7 +2000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 73.66 0)
+			(at 96.52 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,7 +2009,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 124.46 73.66 0)
+			(at 96.52 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,7 +2037,7 @@
 	)
 	(symbol
 		(lib_id "group127:0.1uFCap")
-		(at 214.63 100.33 270)
+		(at 186.69 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2008,7 +2046,7 @@
 		(fields_autoplaced yes)
 		(uuid "a07d24e0-5054-4b3f-8c43-f6445a353081")
 		(property "Reference" "C?"
-			(at 218.44 105.4099 90)
+			(at 190.5 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2017,7 +2055,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 218.44 107.9499 90)
+			(at 190.5 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2026,7 +2064,7 @@
 			)
 		)
 		(property "Footprint" "CAPC2012X94N"
-			(at 118.44 109.22 0)
+			(at 90.5 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,7 +2074,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
-			(at 18.44 109.22 0)
+			(at -9.5 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2046,7 +2084,7 @@
 			)
 		)
 		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
-			(at 214.63 100.33 0)
+			(at 186.69 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,7 +2093,7 @@
 			)
 		)
 		(property "Height" "0.94"
-			(at -181.56 109.22 0)
+			(at -209.5 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2065,7 +2103,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-08055C104K"
-			(at -281.56 109.22 0)
+			(at -309.5 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2075,7 +2113,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
-			(at -381.56 109.22 0)
+			(at -409.5 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,7 +2123,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -481.56 109.22 0)
+			(at -509.5 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2095,7 +2133,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "08055C104KAT2A"
-			(at -581.56 109.22 0)
+			(at -609.5 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2127,7 +2165,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Switching:LMR51430")
-		(at 143.51 85.09 0)
+		(at 115.57 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2136,7 +2174,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9d1377a-90b1-4cd0-8c65-67eb40fe2683")
 		(property "Reference" "U?"
-			(at 143.51 74.93 0)
+			(at 115.57 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2144,7 +2182,7 @@
 			)
 		)
 		(property "Value" "LMR51430"
-			(at 143.51 77.47 0)
+			(at 115.57 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2152,7 +2190,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 144.78 93.98 0)
+			(at 116.84 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +2200,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51430.pdf"
-			(at 144.78 96.52 0)
+			(at 116.84 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +2210,7 @@
 			)
 		)
 		(property "Description" "4.5-V to 36-V, 3-A synchronous buck converter with 40-µA IQ, SOT-23-6"
-			(at 143.51 85.09 0)
+			(at 115.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2253,7 @@
 	)
 	(symbol
 		(lib_id "group127:0.1uFCap")
-		(at 124.46 97.79 90)
+		(at 96.52 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2224,7 +2262,7 @@
 		(fields_autoplaced yes)
 		(uuid "dee9bae1-b944-437e-8d8a-ee7555043848")
 		(property "Reference" "C?"
-			(at 128.27 90.1699 90)
+			(at 100.33 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,7 +2271,7 @@
 			)
 		)
 		(property "Value" "0.1uFCap"
-			(at 128.27 92.7099 90)
+			(at 100.33 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,7 +2280,7 @@
 			)
 		)
 		(property "Footprint" "CAPC2012X94N"
-			(at 220.65 88.9 0)
+			(at 192.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2252,7 +2290,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
-			(at 320.65 88.9 0)
+			(at 292.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,7 +2300,7 @@
 			)
 		)
 		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
-			(at 124.46 97.79 0)
+			(at 96.52 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +2309,7 @@
 			)
 		)
 		(property "Height" "0.94"
-			(at 520.65 88.9 0)
+			(at 492.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,7 +2319,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-08055C104K"
-			(at 620.65 88.9 0)
+			(at 592.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,7 +2329,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
-			(at 720.65 88.9 0)
+			(at 692.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +2339,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 820.65 88.9 0)
+			(at 792.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +2349,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "08055C104KAT2A"
-			(at 920.65 88.9 0)
+			(at 892.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +2381,7 @@
 	)
 	(symbol
 		(lib_id "group127:Resistor")
-		(at 200.66 110.49 270)
+		(at 172.72 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2352,7 +2390,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6beb084-8705-4363-a406-b05b2a8a0072")
 		(property "Reference" "R?"
-			(at 203.2 118.1099 90)
+			(at 175.26 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2399,7 @@
 			)
 		)
 		(property "Value" "13.7k"
-			(at 203.2 120.6499 90)
+			(at 175.26 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,7 +2408,7 @@
 			)
 		)
 		(property "Footprint" "RESC2012X60N"
-			(at 104.47 124.46 0)
+			(at 76.53 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2380,7 +2418,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/pdfs/chpreztr.pdf"
-			(at 4.47 124.46 0)
+			(at -23.47 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2428,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 270ohm 1%"
-			(at 200.66 110.49 0)
+			(at 172.72 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,7 +2437,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at -195.53 124.46 0)
+			(at -223.47 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +2447,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-CR0805FX-2700ELF"
-			(at -295.53 124.46 0)
+			(at -323.47 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,7 +2457,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CR0805-FX-2700ELF?qs=4vGXhLEMbUwfoxAMFQ260A%3D%3D"
-			(at -395.53 124.46 0)
+			(at -423.47 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,7 +2467,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at -495.53 124.46 0)
+			(at -523.47 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,7 +2477,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CR0805-FX-2700ELF"
-			(at -595.53 124.46 0)
+			(at -623.47 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
