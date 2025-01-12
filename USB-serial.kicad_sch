@@ -5,8 +5,6 @@
 	(uuid "b8c86643-5659-4bed-86b8-a6e1869df4b3")
 	(paper "A4")
 	(lib_symbols
-<<<<<<< Updated upstream
-=======
 		(symbol "08055A470JAT2A:08055A470JAT2A"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1089,68 +1087,49 @@
 				)
 			)
 		)
->>>>>>> Stashed changes
-		(symbol "group127:USB-C"
+		(symbol "group127:USB-C-Port"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 16.51 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "USB-C"
-				(at 0 13.97 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "USB4110-GF-A_GCT"
-				(at 0 -4.826 0)
+			(property "Reference" "USB-C1"
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+				)
+			)
+			(property "Value" "USB-C-Port"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "USB4110_GF_A:GCT_USB4110GFA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "USB4110-GF-A"
-				(at -0.508 4.318 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
 			)
 			(property "Description" ""
-				(at -20.32 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "USB4110-GF-A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1159,387 +1138,70 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "USB4110-GF-A_GCT"
+			(property "MF" "GCT"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "USB-C_0_1"
-				(polyline
-					(pts
-						(xy -12.7 -11.43) (xy 12.7 -11.43)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.7 11.43) (xy -12.7 -11.43)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -11.43) (xy 12.7 11.43)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 11.43) (xy -12.7 11.43)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_out line
-					(at -20.32 6.35 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1-B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 20.32 -3.81 180)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12-B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -20.32 3.81 0)
-					(length 7.62)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4-B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 1.27 0)
-					(length 7.62)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 -1.27 0)
-					(length 7.62)
-					(name "DP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 -3.81 0)
-					(length 7.62)
-					(name "DN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 -6.35 0)
-					(length 7.62)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -6.35 180)
-					(length 7.62)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9-B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 -1.27 180)
-					(length 7.62)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 1.27 180)
-					(length 7.62)
-					(name "DP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 3.81 180)
-					(length 7.62)
-					(name "DN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 6.35 180)
-					(length 7.62)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "group127:USB-UART"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 11.43 21.082 0)
+			(property "Description_1" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
-				)
-			)
-			(property "Value" "USB-UART"
-				(at 7.874 18.542 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOP64P599X175-20N"
-				(at 29.21 -84.76 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/824938d1687833d6997706543241551a.pdf"
-				(at 29.21 -184.76 0)
+			(property "Package" "None"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Description" "FTDI Chip FT231XS-R, Interface RS232, RS422, RS485, SIE, UART 3MBd, 5 V, 20-pin, SSOP"
-				(at 10.668 -49.276 0)
+			(property "Price" "None"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Height" "1.753"
-				(at 29.21 -384.76 0)
+			(property "MP" "USB4110GFA"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "895-FT231XS-R"
-				(at 29.21 -484.76 0)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/FTDI/FT231XS-R?qs=Gp1Yz1mis3WduRPsgrTbtg%3D%3D"
-				(at 29.21 -584.76 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "FTDI Chip"
-				(at 29.21 -684.76 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "FT231XS-R"
-				(at 29.21 -784.76 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "USB-UART_1_1"
+			(symbol "USB-C-Port_0_0"
 				(rectangle
-					(start -8.89 16.51)
-					(end 13.97 -39.37)
+					(start -12.7 -27.94)
+					(end 12.7 10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1548,370 +1210,296 @@
 						(type background)
 					)
 				)
-				(pin passive line
-					(at 19.05 -6.35 180)
+				(pin power_in line
+					(at 17.78 -12.7 180)
 					(length 5.08)
-					(name "DTR#"
+					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "A1/B12"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 19.05 -24.13 180)
+				(pin power_in line
+					(at 17.78 7.62 180)
 					(length 5.08)
-					(name "CBUS2"
+					(name "VBUS"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "10"
+					(number "A4/B9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at -13.97 -3.81 0)
+				(pin bidirectional line
+					(at -17.78 2.54 0)
 					(length 5.08)
-					(name "USBDP"
+					(name "CC1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "11"
+					(number "A5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at -13.97 -1.27 0)
+				(pin bidirectional line
+					(at -17.78 0 0)
 					(length 5.08)
-					(name "USBDM"
+					(name "DP1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "12"
+					(number "A6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at -13.97 3.81 0)
+				(pin bidirectional line
+					(at -17.78 -2.54 0)
 					(length 5.08)
-					(name "3V3OUT"
+					(name "DN1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "13"
+					(number "A7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at -13.97 -8.89 0)
+				(pin bidirectional line
+					(at -17.78 -5.08 0)
 					(length 5.08)
-					(name "RESET#"
+					(name "SBU1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "14"
+					(number "A8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 1.27 21.59 270)
+				(pin power_in line
+					(at 17.78 -15.24 180)
 					(length 5.08)
-					(name "VCC"
+					(name "GND__1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "15"
+					(number "B1/A12"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 3.81 -44.45 90)
+				(pin power_in line
+					(at 17.78 5.08 180)
 					(length 5.08)
-					(name "GND_2"
+					(name "VBUS__1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "16"
+					(number "B4/A9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 19.05 -21.59 180)
+				(pin bidirectional line
+					(at 17.78 0 180)
 					(length 5.08)
-					(name "CBUS1"
+					(name "CC2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "17"
+					(number "B5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 19.05 -19.05 180)
+				(pin bidirectional line
+					(at 17.78 -2.54 180)
 					(length 5.08)
-					(name "CBUS0"
+					(name "DP2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "18"
+					(number "B6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 19.05 -26.67 180)
+				(pin bidirectional line
+					(at 17.78 -5.08 180)
 					(length 5.08)
-					(name "CBUS3"
+					(name "DN2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "19"
+					(number "B7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 19.05 -1.27 180)
+				(pin bidirectional line
+					(at 17.78 -7.62 180)
 					(length 5.08)
-					(name "RTS#"
+					(name "SBU2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "2"
+					(number "B8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 19.05 3.81 180)
+				(pin power_in line
+					(at 17.78 -17.78 180)
 					(length 5.08)
-					(name "TXD"
+					(name "GND__2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "20"
+					(number "S1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 3.81 21.59 270)
+				(pin power_in line
+					(at 17.78 -20.32 180)
 					(length 5.08)
-					(name "VCCIO"
+					(name "GND__3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "3"
+					(number "S2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 19.05 1.27 180)
+				(pin power_in line
+					(at 17.78 -22.86 180)
 					(length 5.08)
-					(name "RXD"
+					(name "GND__4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "4"
+					(number "S3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 19.05 -13.97 180)
+				(pin power_in line
+					(at 17.78 -25.4 180)
 					(length 5.08)
-					(name "RI#"
+					(name "GND__5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "5"
+					(number "S4"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -44.45 90)
-					(length 5.08)
-					(name "GND_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -8.89 180)
-					(length 5.08)
-					(name "DSR#"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -11.43 180)
-					(length 5.08)
-					(name "DCD#"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 19.05 -3.81 180)
-					(length 5.08)
-					(name "CTS#"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 			)
 		)
-<<<<<<< Updated upstream
-=======
 		(symbol "group127:USB2UART"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3486,111 +3074,8 @@
 				)
 			)
 		)
->>>>>>> Stashed changes
 	)
 	(symbol
-		(lib_id "group127:USB-C")
-		(at 74.93 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15d2456c-b832-4b78-8d85-7257a6f41ee4")
-		(property "Reference" "J1"
-			(at 74.93 48.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "USB-C"
-			(at 74.93 50.8 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "USB4110-GF-A_GCT"
-			(at 74.93 69.596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "USB4110-GF-A"
-			(at 74.422 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A4-B9"
-			(uuid "8fb2cdd9-6031-42e4-baf0-e00cd6fdb85a")
-		)
-		(pin "A6"
-			(uuid "f7a0cd96-6e7f-4d1e-b962-7d766aab5997")
-		)
-		(pin "B8"
-			(uuid "2063e174-3f32-4eb1-a7d1-9389bcb5464e")
-		)
-		(pin "A8"
-			(uuid "a0f705a9-3d77-4adf-a7f9-b4008b698765")
-		)
-		(pin "A1-B12"
-			(uuid "062fc260-08d8-4f2f-b32f-def2bda6beae")
-		)
-		(pin "B6"
-			(uuid "1f383f38-1396-4550-ae82-be3c6197f327")
-		)
-		(pin "A7"
-			(uuid "ecc0eb69-9fb7-4eec-a562-87ae3b847054")
-		)
-		(pin "B7"
-			(uuid "235e4837-f5bf-4bda-bb76-c936a345176a")
-		)
-		(pin "A12-B1"
-			(uuid "57178742-6273-4bbc-8f41-678c2ea1019d")
-		)
-		(pin "A9-B4"
-			(uuid "3431d426-0f5d-4c9a-b665-6f41430f24e7")
-		)
-		(pin "A5"
-			(uuid "5bd4e339-e94e-448b-afd7-a23dbc3034d2")
-		)
-		(pin "B5"
-			(uuid "e2b85673-9e76-45aa-954f-1e721509d33e")
-		)
-		(instances
-			(project ""
-				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/8f41fec2-6210-43dd-9328-85befbc13075"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-<<<<<<< Updated upstream
-=======
 		(lib_id "Project1LibUniv:Switch")
 		(at 198.12 59.69 0)
 		(unit 1)
@@ -4547,46 +4032,33 @@
 		)
 	)
 	(symbol
->>>>>>> Stashed changes
-		(lib_id "group127:USB-UART")
-		(at 144.78 55.88 0)
+		(lib_id "CR0805-FX-2700ELF:CR0805-FX-2700ELF")
+		(at 81.28 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a50fb0d9-cf25-4594-a0e0-e8048095b037")
-		(property "Reference" "IC1"
-			(at 150.7841 34.29 0)
+		(uuid "a7c0aad9-2c31-4915-b22a-8e8b8bb482b1")
+		(property "Reference" "R3"
+			(at 90.17 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "USB-UART"
-			(at 150.7841 36.83 0)
+		(property "Value" "270ohm"
+			(at 90.17 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "SOP64P599X175-20N"
-			(at 173.99 140.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/824938d1687833d6997706543241551a.pdf"
-			(at 173.99 240.64 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 95.25 254.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,17 +4067,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FTDI Chip FT231XS-R, Interface RS232, RS422, RS485, SIE, UART 3MBd, 5 V, 20-pin, SSOP"
-			(at 155.448 105.156 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.753"
-			(at 173.99 440.64 0)
+		(property "Datasheet" "https://www.bourns.com/pdfs/chpreztr.pdf"
+			(at 95.25 354.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,8 +4077,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "895-FT231XS-R"
-			(at 173.99 540.64 0)
+		(property "Description" "Thick Film Resistors - SMD 270ohm 1%"
+			(at 81.28 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.6"
+			(at 95.25 554.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,8 +4096,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/FTDI/FT231XS-R?qs=Gp1Yz1mis3WduRPsgrTbtg%3D%3D"
-			(at 173.99 640.64 0)
+		(property "Mouser Part Number" "652-CR0805FX-2700ELF"
+			(at 95.25 654.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,8 +4106,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "FTDI Chip"
-			(at 173.99 740.64 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CR0805-FX-2700ELF?qs=4vGXhLEMbUwfoxAMFQ260A%3D%3D"
+			(at 95.25 754.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4644,8 +4116,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "FT231XS-R"
-			(at 173.99 840.64 0)
+		(property "Manufacturer_Name" "Bourns"
+			(at 95.25 854.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4654,70 +4126,935 @@
 				(hide yes)
 			)
 		)
-		(pin "16"
-			(uuid "34767532-bda5-4315-8e0b-195b21a17368")
-		)
-		(pin "19"
-			(uuid "cf610bcb-aa41-4ed2-a3cc-ac2239f6cc74")
-		)
-		(pin "1"
-			(uuid "2098774f-6586-47a6-a730-920ee79f177c")
-		)
-		(pin "10"
-			(uuid "243e5735-9b94-41b3-8bb4-896e628eff82")
-		)
-		(pin "11"
-			(uuid "018a185b-95ba-46a7-b6ec-158418fb3753")
-		)
-		(pin "12"
-			(uuid "636aa4e5-61c3-43d0-ac3e-5e9f23c67f9a")
-		)
-		(pin "13"
-			(uuid "b6a123f6-3a7b-4b24-b751-a4947066291d")
-		)
-		(pin "14"
-			(uuid "a9114383-e85a-4576-94c9-6b5201ef8c28")
-		)
-		(pin "15"
-			(uuid "f7953a3f-abff-4012-b2d2-ec18c7314ebe")
-		)
-		(pin "17"
-			(uuid "0093ed1c-5635-48a9-b48c-5ae0fab48fc3")
-		)
-		(pin "18"
-			(uuid "df49667a-7159-45cb-854d-04ef6f9f8c2d")
+		(property "Manufacturer_Part_Number" "CR0805-FX-2700ELF"
+			(at 95.25 954.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "255ff3fd-77f3-4cae-be50-93af1b6db857")
+			(uuid "41567967-2248-485a-bf93-eee0d8eb615e")
 		)
-		(pin "20"
-			(uuid "c1aa4b44-7c04-47da-ab5e-cddb490fc407")
-		)
-		(pin "3"
-			(uuid "aa9be817-c0c0-43b1-a63d-ea434febede3")
-		)
-		(pin "4"
-			(uuid "e4beccf5-c83d-4ad9-b319-4bb8f0fb4148")
-		)
-		(pin "5"
-			(uuid "1c267495-42de-4ac3-9fdb-02552629663f")
-		)
-		(pin "6"
-			(uuid "a610edd1-8a09-4199-aa98-86bf1fc6d8b1")
-		)
-		(pin "8"
-			(uuid "12b14624-cf5a-4134-a571-659b68c212a4")
-		)
-		(pin "9"
-			(uuid "05c81b3c-ad84-4ff3-a713-e27074092f09")
-		)
-		(pin "7"
-			(uuid "1a15251f-9d04-4de7-a3ae-809ff9f52020")
+		(pin "1"
+			(uuid "07c086c1-bc08-41a3-9320-d599cf3680e4")
 		)
 		(instances
-			(project ""
+			(project "harm_drone"
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/8f41fec2-6210-43dd-9328-85befbc13075"
-					(reference "IC1")
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "group127:SerialLED")
+		(at 81.28 158.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5359dff-2289-44bd-ae34-49cbe97fbb16")
+		(property "Reference" "RXLED1"
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM0805UBWC"
+			(at 73.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KiCad0805:LEDC2012X110N"
+			(at 68.58 252.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/sm0805ubwc/bivar?region=nac"
+			(at 68.58 352.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Uni-Color Blue 468nm 2-Pin Chip 0805(2012Metric) T/R"
+			(at 81.28 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 68.58 552.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "749-SM0805UBWC"
+			(at 68.58 652.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bivar/SM0805UBWC?qs=hWDdE2Pc5RAgQGamDSfd%252BQ%3D%3D"
+			(at 68.58 752.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at 68.58 852.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0805UBWC"
+			(at 68.58 952.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b43e9174-9efd-4dca-af74-e6f03ee07b23")
+		)
+		(pin "2"
+			(uuid "ad82643d-924f-4bf7-9066-56fc722cef0c")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/8f41fec2-6210-43dd-9328-85befbc13075"
+					(reference "RXLED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "group127:USB2UART")
+		(at 116.84 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8aada76-d599-4060-a71c-1b3c3266b4a1")
+		(property "Reference" "USB2UART1"
+			(at 116.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FT231XS-R"
+			(at 116.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm"
+			(at 116.84 188.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://dl.carters.cloud/datasheets/USB.pdf"
+			(at 116.586 185.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB to UART"
+			(at 116.586 183.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "4ddf2d02-d0cf-4b79-add9-d44ca4dc0370")
+		)
+		(pin "9"
+			(uuid "545b2e32-cbdc-457d-a8be-4f27c67b717b")
+		)
+		(pin "14"
+			(uuid "753ba961-8e07-4509-a029-eeb6d2323aa4")
+		)
+		(pin "18"
+			(uuid "32a5316e-ddd2-4b49-8777-e2bb49fb0a35")
+		)
+		(pin "2"
+			(uuid "25fe7e31-f859-46ec-8118-4998577443a2")
+		)
+		(pin "16"
+			(uuid "edb7bcce-887f-4c99-86ed-33c820361666")
+		)
+		(pin "20"
+			(uuid "90a806ba-d540-40c8-b62b-fcb02156eb03")
+		)
+		(pin "19"
+			(uuid "d14f1710-50d0-47e9-ab7b-e748d02d9acb")
+		)
+		(pin "3"
+			(uuid "3c71a5a7-5b17-4059-975f-95788c24739e")
+		)
+		(pin "5"
+			(uuid "4946452e-ff96-4550-8680-c90696bf5b9e")
+		)
+		(pin "4"
+			(uuid "de97fdfd-7f50-49a0-97bc-fec0bf5aa07a")
+		)
+		(pin "1"
+			(uuid "6ef2e6c0-575c-4b4a-aa14-944388a97fca")
+		)
+		(pin "17"
+			(uuid "4cadcb8b-d45f-42c7-8f92-0965a3fabb58")
+		)
+		(pin "10"
+			(uuid "7f2e03a6-39ac-424a-a633-8baf896498e5")
+		)
+		(pin "8"
+			(uuid "1c06a6f3-9fab-49c3-9bcd-476fc7c2fe54")
+		)
+		(pin "7"
+			(uuid "e7ecaf46-b2ce-4443-b0ec-9b255bbaeaf3")
+		)
+		(pin "13"
+			(uuid "947d9224-eb1c-4edd-8c2b-4fdfd1cf0043")
+		)
+		(pin "12"
+			(uuid "c20f06bf-a638-482c-8629-a70f9cc153de")
+		)
+		(pin "11"
+			(uuid "558932a7-d67c-40f4-92f8-bdbf20fef409")
+		)
+		(pin "6"
+			(uuid "eb3638ac-1648-488d-a479-bf7bffe54e40")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/8f41fec2-6210-43dd-9328-85befbc13075"
+					(reference "USB2UART1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "08055A470JAT2A:08055A470JAT2A")
+		(at 50.8 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2d3197d-e46a-48b9-9bca-3e3c5b41134d")
+		(property "Reference" "C3"
+			(at 54.61 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47pF"
+			(at 54.61 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at -45.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -145.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 47pF C0G 0805 5%"
+			(at 50.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at -345.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-08055A470J"
+			(at -445.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055A470JAT2A?qs=HVCPnIvYOgrAzvERMfLwOw%3D%3D"
+			(at -545.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at -645.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "08055A470JAT2A"
+			(at -745.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac661e73-1475-4243-854d-5863456c10f9")
+		)
+		(pin "2"
+			(uuid "05fd4b11-d277-4b29-a92e-7382e696cdca")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/8f41fec2-6210-43dd-9328-85befbc13075"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CR0805-FX-27R0ELF:CR0805-FX-27R0ELF")
+		(at 153.67 74.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3e928c5-3fc5-43e8-ac9b-5ab423d19374")
+		(property "Reference" "R5"
+			(at 144.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1kohm"
+			(at 144.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 139.7 171.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/pdfs/chpreztr.pdf"
+			(at 139.7 271.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 27ohm 1%"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.6"
+			(at 139.7 471.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0805FX-27R0ELF"
+			(at 139.7 571.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CR0805-FX-27R0ELF?qs=4vGXhLEMbUwrTzV9z9NRJA%3D%3D"
+			(at 139.7 671.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 139.7 771.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CR0805-FX-27R0ELF"
+			(at 139.7 871.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1ab1f4c-2402-4ae4-95c7-3799b519e0f5")
+		)
+		(pin "2"
+			(uuid "4f29a2e2-3daf-4136-981a-2e14f3ac4bda")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/8f41fec2-6210-43dd-9328-85befbc13075"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "group127:USB-C-Port")
+		(at 171.45 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db864e57-1b0b-47ef-9b14-601d57af8a8f")
+		(property "Reference" "USB-C1"
+			(at 171.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB4110GFA"
+			(at 171.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "USB4110_GF_A:GCT_USB4110GFA"
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "GCT"
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole"
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "USB4110GFA"
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 171.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A6"
+			(uuid "49816068-7acd-4446-bad2-7be461a22058")
+		)
+		(pin "A7"
+			(uuid "4733d1cc-4efb-4797-99a4-f21de464cb1c")
+		)
+		(pin "B5"
+			(uuid "aff17f6f-2114-4d6f-9da9-378263d34d67")
+		)
+		(pin "B4/A9"
+			(uuid "0d5f4e20-3edb-4378-9c74-3636fe632449")
+		)
+		(pin "B8"
+			(uuid "570e53b8-7eb7-4521-90dd-ab8b9b9372e7")
+		)
+		(pin "A5"
+			(uuid "022e241d-9818-4386-b5f0-f2ebe31d0a3a")
+		)
+		(pin "B6"
+			(uuid "a2c44ab3-c6e6-4f85-a1c5-98ddb870ae24")
+		)
+		(pin "B7"
+			(uuid "82e256fb-0099-4b0c-890f-240b645b69ac")
+		)
+		(pin "S3"
+			(uuid "1439a027-0cc1-4391-b165-af2219cea866")
+		)
+		(pin "S4"
+			(uuid "cc30bb64-37cc-46a4-8d2d-2e6b3a2c2fc2")
+		)
+		(pin "S1"
+			(uuid "d92227ac-199d-4c2e-bbfe-16f0e9549d52")
+		)
+		(pin "A8"
+			(uuid "640daa02-f7e7-45aa-82bd-6a245fa7b0fc")
+		)
+		(pin "B1/A12"
+			(uuid "0ed020ab-3112-4666-b4fe-196564f8acf2")
+		)
+		(pin "S2"
+			(uuid "fa75791a-b3a3-4fa3-b2fe-793ff620fa9a")
+		)
+		(pin "A4/B9"
+			(uuid "8061c932-1ced-4dfa-ae78-5b25b2147276")
+		)
+		(pin "A1/B12"
+			(uuid "f87fe4ee-0c76-4b24-b09f-fcd9d7d80412")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/8f41fec2-6210-43dd-9328-85befbc13075"
+					(reference "USB-C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "08055A470JAT2A:08055A470JAT2A")
+		(at 52.07 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2b8b2ca-723b-49fc-818b-53e2205cce4f")
+		(property "Reference" "C4"
+			(at 55.88 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47pF"
+			(at 55.88 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at -44.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -144.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 47pF C0G 0805 5%"
+			(at 52.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at -344.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-08055A470J"
+			(at -444.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055A470JAT2A?qs=HVCPnIvYOgrAzvERMfLwOw%3D%3D"
+			(at -544.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at -644.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "08055A470JAT2A"
+			(at -744.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26c376ca-ef60-4992-b92d-08f93ed0bf21")
+		)
+		(pin "2"
+			(uuid "c32ac49a-8fdd-49ff-822e-6c34bab3764a")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/8f41fec2-6210-43dd-9328-85befbc13075"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 102.87 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e94cc9a1-caa6-4627-ad87-c8539e7f6b9d")
+		(property "Reference" "#PWR09"
+			(at 102.87 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 105.918 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 102.87 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84ee4e5a-ff7f-473b-b1c6-abb01a7955fa")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/8f41fec2-6210-43dd-9328-85befbc13075"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9dd7fe6-1195-47b0-93f2-71463d38bfd4")
+		(property "Reference" "#PWR07"
+			(at 52.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.768 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3765992c-4989-4fc1-81d5-8b64da712c9b")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/8f41fec2-6210-43dd-9328-85befbc13075"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
