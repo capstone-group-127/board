@@ -194,56 +194,49 @@
 				)
 			)
 		)
-		(symbol "group127:XC6210A332MR-G"
+		(symbol "group127:LDO"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "X?"
-				(at -0.254 7.366 0)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
+				)
+			)
+			(property "Value" "LDO"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P280X130-5N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Value" "~"
-				(at 6.35 6.35 0)
+			(property "Datasheet" "https://www.torexsemi.com/file/xc6210/XC6210.pdf"
+				(at 24.13 -194.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "XC6210A332MR-G1"
-				(at 0.762 13.716 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.com/datasheet/2/760/xc6210-3371396.pdf"
-				(at -1.27 19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify left top)
 					(hide yes)
 				)
 			)
 			(property "Description" "LDO Voltage Regulators 700mA High Speed LDO Regulator"
-				(at -0.762 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO*263*TabPin8*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -252,10 +245,60 @@
 					(hide yes)
 				)
 			)
-			(symbol "XC6210A332MR-G_0_1"
+			(property "Height" "1.3"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "865-XC6210A332MR-G"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XC6210A332MR-G?qs=AsjdqWjXhJ%252BGZM2kyDkSFw%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Torex"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "XC6210A332MR-G"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "LDO_1_1"
 				(rectangle
-					(start -6.35 5.08)
-					(end 6.35 -6.35)
+					(start 5.08 2.54)
+					(end 22.86 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -264,12 +307,10 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "XC6210A332MR-G_1_1"
-				(pin power_in line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "CE"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -284,10 +325,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "NC"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -302,10 +343,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "Vin"
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "CE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -320,27 +361,9 @@
 						)
 					)
 				)
-				(pin input line
-					(at 8.89 0 180)
-					(length 2.54)
-					(name "Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 8.89 2.54 180)
-					(length 2.54)
+				(pin no_connect line
+					(at 27.94 0 180)
+					(length 5.08)
 					(name "NC"
 						(effects
 							(font
@@ -348,7 +371,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -356,17 +379,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 8.89 -2.54 180)
-					(length 2.54)
-					(name "Vss"
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -480,7 +503,7 @@
 		(uuid "12d1c772-ebad-456e-b2fb-611beb8a921b")
 	)
 	(junction
-		(at 179.07 82.55)
+		(at 189.23 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cad2c46d-9ea3-48c3-a768-ec8c8acdc1de")
@@ -491,13 +514,15 @@
 		(color 0 0 0 0)
 		(uuid "d1e92320-e06e-4926-bf6b-52a0659a6582")
 	)
-	(no_connect
-		(at 157.48 82.55)
-		(uuid "23429c02-f547-4e1d-9b64-9a0dbad04563")
-	)
-	(no_connect
-		(at 175.26 80.01)
-		(uuid "281ff2ca-f63d-42e0-adb2-b4d44b8477dd")
+	(wire
+		(pts
+			(xy 157.48 82.55) (xy 154.94 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d28682a-a4a3-4a33-98f4-e21520cb176a")
 	)
 	(wire
 		(pts
@@ -521,7 +546,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 82.55) (xy 179.07 97.79)
+			(xy 189.23 82.55) (xy 189.23 97.79)
 		)
 		(stroke
 			(width 0)
@@ -531,7 +556,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 82.55) (xy 190.5 82.55)
+			(xy 189.23 82.55) (xy 200.66 82.55)
 		)
 		(stroke
 			(width 0)
@@ -551,7 +576,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 82.55) (xy 179.07 82.55)
+			(xy 185.42 82.55) (xy 189.23 82.55)
 		)
 		(stroke
 			(width 0)
@@ -581,6 +606,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 82.55) (xy 154.94 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc3869fa-8565-4761-be31-357bb0e1a86a")
+	)
+	(wire
+		(pts
 			(xy 156.21 85.09) (xy 156.21 80.01)
 		)
 		(stroke
@@ -601,7 +636,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 190.5 82.55 0)
+		(at 200.66 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -611,7 +646,7 @@
 		)
 		(uuid "1338068b-e422-4c15-92a3-97baf5db43c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.9928 82.55 0)
+			(at 207.1528 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -645,7 +680,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 110.49 0)
+		(at 189.23 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -654,7 +689,7 @@
 		(fields_autoplaced yes)
 		(uuid "19afed87-df81-427e-a0b3-a8dbe9291a26")
 		(property "Reference" "#PWR020"
-			(at 179.07 116.84 0)
+			(at 189.23 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -663,7 +698,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 115.57 0)
+			(at 189.23 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -671,7 +706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 110.49 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -680,7 +715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 110.49 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -689,7 +724,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 110.49 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -845,7 +880,7 @@
 	)
 	(symbol
 		(lib_id "group127:0805Capacitor")
-		(at 179.07 97.79 270)
+		(at 189.23 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -854,7 +889,7 @@
 		(fields_autoplaced yes)
 		(uuid "47b5aa11-139d-4185-883e-297f23cf1dd9")
 		(property "Reference" "C7"
-			(at 182.88 102.8699 90)
+			(at 193.04 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,7 +898,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 182.88 105.4099 90)
+			(at 193.04 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +907,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 82.88 106.68 0)
+			(at 93.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -882,7 +917,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
-			(at -17.12 106.68 0)
+			(at -6.96 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -892,7 +927,7 @@
 			)
 		)
 		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
-			(at 179.07 97.79 0)
+			(at 189.23 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -901,7 +936,7 @@
 			)
 		)
 		(property "Height" "0.94"
-			(at -217.12 106.68 0)
+			(at -206.96 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -911,7 +946,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-08055C104K"
-			(at -317.12 106.68 0)
+			(at -306.96 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -921,7 +956,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
-			(at -417.12 106.68 0)
+			(at -406.96 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -931,7 +966,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -517.12 106.68 0)
+			(at -506.96 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -941,7 +976,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "08055C104KAT2A"
-			(at -617.12 106.68 0)
+			(at -606.96 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,8 +1079,8 @@
 		)
 	)
 	(symbol
-		(lib_id "group127:XC6210A332MR-G")
-		(at 166.37 82.55 0)
+		(lib_id "group127:LDO")
+		(at 157.48 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1054,7 +1089,7 @@
 		(fields_autoplaced yes)
 		(uuid "b25e586e-510c-4b08-9917-f46ddf908221")
 		(property "Reference" "IC4"
-			(at 166.116 75.184 0)
+			(at 157.226 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1063,7 +1098,7 @@
 			)
 		)
 		(property "Value" "LDO"
-			(at 172.72 76.2 0)
+			(at 163.83 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1071,26 +1106,28 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 167.132 68.834 0)
+		(property "Footprint" "group127:LDO"
+			(at 181.61 174.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/760/xc6210-3371396.pdf"
-			(at 165.1 63.5 0)
+		(property "Datasheet" "https://www.torexsemi.com/file/xc6210/XC6210.pdf"
+			(at 181.61 274.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Description" "LDO Voltage Regulators 700mA High Speed LDO Regulator"
-			(at 165.608 102.87 0)
+			(at 157.48 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1098,11 +1135,58 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
-			(uuid "369e7702-0be1-43f7-be01-50e2bd5bd87d")
+		(property "Height" "1.3"
+			(at 181.61 474.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "6"
-			(uuid "7840004f-5e66-4ad1-8b14-924a4ea6a6e2")
+		(property "Mouser Part Number" "865-XC6210A332MR-G"
+			(at 181.61 574.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XC6210A332MR-G?qs=AsjdqWjXhJ%252BGZM2kyDkSFw%3D%3D"
+			(at 181.61 674.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Torex"
+			(at 181.61 774.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XC6210A332MR-G"
+			(at 181.61 874.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "369e7702-0be1-43f7-be01-50e2bd5bd87d")
 		)
 		(pin "2"
 			(uuid "b1f5b12a-9300-4b7d-a774-5e0a80d4d99d")
@@ -1133,16 +1217,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 85.09 0)
+		(at 154.94 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f29d472c-dfe0-4823-b54a-b0fd43a0ade1")
-		(property "Reference" "#PWR019"
-			(at 175.26 91.44 0)
+		(uuid "c208315b-46e1-4b42-bee1-2690aaa62f06")
+		(property "Reference" "#PWR034"
+			(at 154.94 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,7 +1235,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 90.17 0)
+			(at 154.94 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1159,7 +1243,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 85.09 0)
+			(at 154.94 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1168,7 +1252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 85.09 0)
+			(at 154.94 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1177,7 +1261,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 85.09 0)
+			(at 154.94 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,18 +1270,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b204df26-58fb-4aa3-891a-ff9969e4f2d6")
+			(uuid "d7145553-f964-445f-a19c-315750e0b744")
 		)
 		(instances
 			(project "harm_drone"
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/06c65770-b1a9-4683-9717-b848c80eccc4"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-			(project "ldo"
-				(path "/8c89e2c6-3a4c-42d5-9469-c7cf807a96d1"
-					(reference "#PWR03")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)

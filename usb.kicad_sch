@@ -2432,7 +2432,7 @@
 				)
 			)
 		)
-		(symbol "group127:USB Hub"
+		(symbol "group127:USB-HUB"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2445,7 +2445,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "USB Hub"
+			(property "Value" "USB-HUB"
 				(at 41.91 25.4 0)
 				(effects
 					(font
@@ -2533,7 +2533,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB Hub_1_1"
+			(symbol "USB-HUB_1_1"
 				(rectangle
 					(start 5.08 22.86)
 					(end 40.64 -33.02)
@@ -4416,7 +4416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "group127:USBPorts"
 			(at 179.324 135.382 0)
 			(effects
 				(font
@@ -4573,7 +4573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "group127:USBPorts"
 			(at 179.324 98.552 0)
 			(effects
 				(font
@@ -5260,7 +5260,7 @@
 		)
 	)
 	(symbol
-		(lib_id "group127:USB Hub")
+		(lib_id "group127:USB-HUB")
 		(at 109.22 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5285,7 +5285,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "group127:USB-HUB"
 			(at 151.13 172.39 0)
 			(effects
 				(font
