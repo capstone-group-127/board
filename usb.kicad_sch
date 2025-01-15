@@ -2548,7 +2548,7 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "DP0"
+					(name "D0+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2584,7 +2584,7 @@
 				(pin passive line
 					(at 17.78 -38.1 90)
 					(length 5.08)
-					(name "DM1"
+					(name "D1-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2602,7 +2602,7 @@
 				(pin passive line
 					(at 20.32 -38.1 90)
 					(length 5.08)
-					(name "DP1"
+					(name "D1+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2656,7 +2656,7 @@
 				(pin passive line
 					(at 27.94 -38.1 90)
 					(length 5.08)
-					(name "DM2"
+					(name "D2-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2674,7 +2674,7 @@
 				(pin passive line
 					(at 30.48 -38.1 90)
 					(length 5.08)
-					(name "DP2"
+					(name "D2+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2728,7 +2728,7 @@
 				(pin passive line
 					(at 45.72 -12.7 180)
 					(length 5.08)
-					(name "DM3"
+					(name "D3-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2746,7 +2746,7 @@
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
-					(name "DM0"
+					(name "D0-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2764,7 +2764,7 @@
 				(pin passive line
 					(at 45.72 -10.16 180)
 					(length 5.08)
-					(name "DP3"
+					(name "D3+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2818,7 +2818,7 @@
 				(pin passive line
 					(at 45.72 -2.54 180)
 					(length 5.08)
-					(name "DM4"
+					(name "D4-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2836,7 +2836,7 @@
 				(pin passive line
 					(at 45.72 0 180)
 					(length 5.08)
-					(name "DP4"
+					(name "D4+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3760,7 +3760,7 @@
 		)
 		(uuid "feac1164-c5ae-4676-9acf-14da6c087975")
 	)
-	(label "DM3"
+	(label "D3-"
 		(at 154.94 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3771,7 +3771,7 @@
 		)
 		(uuid "19fe62f3-2de0-434e-8bc1-32eb753b2894")
 	)
-	(label "DP4"
+	(label "D4+"
 		(at 154.94 97.79 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3782,7 +3782,7 @@
 		)
 		(uuid "25d6a894-9bf3-4d2a-a3f7-38c4b3fce367")
 	)
-	(label "DM1"
+	(label "D1-"
 		(at 182.88 78.74 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3793,7 +3793,7 @@
 		)
 		(uuid "32d90b93-fd5e-4b7c-9346-5d857135711f")
 	)
-	(label "DM4"
+	(label "D4-"
 		(at 154.94 100.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3804,7 +3804,7 @@
 		)
 		(uuid "3a2d822d-27dd-4e08-8806-2bcaf30ef146")
 	)
-	(label "DP3"
+	(label "D3+"
 		(at 182.88 118.11 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3815,7 +3815,7 @@
 		)
 		(uuid "3aea8bbd-ae02-4e1b-96b3-32313fd2c861")
 	)
-	(label "DP2"
+	(label "D2+"
 		(at 182.88 91.44 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3826,7 +3826,7 @@
 		)
 		(uuid "618f8ba9-e725-4d90-9fb4-a71d06298d7e")
 	)
-	(label "DP3"
+	(label "D3+"
 		(at 154.94 107.95 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3837,7 +3837,7 @@
 		)
 		(uuid "83e54640-0885-4284-ab17-330585f810c7")
 	)
-	(label "DM1"
+	(label "D1-"
 		(at 127 135.89 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3848,7 +3848,7 @@
 		)
 		(uuid "8528b24a-b88a-47b2-b815-24a279406124")
 	)
-	(label "DP2"
+	(label "D2+"
 		(at 139.7 135.89 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3859,7 +3859,7 @@
 		)
 		(uuid "917e5229-fb9c-4841-a383-f8d4988a51a9")
 	)
-	(label "DP1"
+	(label "D1+"
 		(at 182.88 81.28 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3870,7 +3870,7 @@
 		)
 		(uuid "99890c53-e804-422f-844b-0f80408282e3")
 	)
-	(label "DM2"
+	(label "D2-"
 		(at 182.88 88.9 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3881,7 +3881,7 @@
 		)
 		(uuid "a47c5574-ed6c-4b33-b319-063b9f6f7e23")
 	)
-	(label "DP1"
+	(label "D1+"
 		(at 129.54 135.89 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3892,7 +3892,7 @@
 		)
 		(uuid "b41fb6bd-73d7-463c-b5d4-e4e8a646a487")
 	)
-	(label "DP4"
+	(label "D4+"
 		(at 182.88 128.27 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3903,7 +3903,7 @@
 		)
 		(uuid "b4f1d2af-aa60-44b2-a3ab-ffde540a9428")
 	)
-	(label "DM3"
+	(label "D3-"
 		(at 182.88 115.57 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3914,7 +3914,7 @@
 		)
 		(uuid "bad0ecaf-e51a-4cea-94a3-c21072bdb9ab")
 	)
-	(label "DM2"
+	(label "D2-"
 		(at 137.16 135.89 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3925,7 +3925,7 @@
 		)
 		(uuid "c2cd442a-a335-46eb-8c87-7ea77d99ea78")
 	)
-	(label "DM4"
+	(label "D4-"
 		(at 182.88 125.73 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3956,7 +3956,7 @@
 			)
 		)
 	)
-	(global_label "DM0"
+	(global_label "D0-"
 		(shape input)
 		(at 109.22 100.33 180)
 		(effects
@@ -4020,7 +4020,7 @@
 			)
 		)
 	)
-	(global_label "DP0"
+	(global_label "D0+"
 		(shape input)
 		(at 109.22 97.79 180)
 		(effects
