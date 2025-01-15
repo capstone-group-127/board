@@ -2677,7 +2677,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uFCap"
+		(property "Value" "0.1uF"
 			(at 100.33 93.9799 90)
 			(effects
 				(font
