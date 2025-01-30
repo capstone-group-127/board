@@ -1905,6 +1905,12 @@
 		(uuid "19e743d2-a6d6-40ae-914d-722971438901")
 	)
 	(junction
+		(at 64.77 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20667d70-a301-4d83-a40e-dd8a26173185")
+	)
+	(junction
 		(at 77.47 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2036,7 +2042,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 101.6) (xy 67.31 101.6)
+			(xy 43.18 105.41) (xy 64.77 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2230b359-7b6a-422b-ac6f-daadebcc246d")
+	)
+	(wire
+		(pts
+			(xy 60.96 101.6) (xy 64.77 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2276,6 +2292,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 105.41) (xy 64.77 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74435a6-fa39-4a8b-868a-002e0a17e1dc")
+	)
+	(wire
+		(pts
 			(xy 119.38 153.67) (xy 134.62 153.67)
 		)
 		(stroke
@@ -2453,6 +2479,16 @@
 			(type default)
 		)
 		(uuid "f69106a1-8d8d-499a-81a0-b251f6de2372")
+	)
+	(wire
+		(pts
+			(xy 64.77 101.6) (xy 67.31 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b3291e-8709-48f7-b78a-350f2438e125")
 	)
 	(global_label "3V3"
 		(shape input)
@@ -2888,6 +2924,26 @@
 		(uuid "cf874ce6-61f7-4154-ab13-b7c6ebb7226d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 77.47 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CARD_DETECT"
+		(shape input)
+		(at 43.18 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e25dcf53-011e-4aa7-965f-0bc7ac9fd3fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
