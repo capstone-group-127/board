@@ -11472,6 +11472,17 @@
 			(solder_mask_margin 0.102)
 			(uuid "f4e9c287-8470-4634-ae8c-12c103f0d7d9")
 		)
+		(model "models/Same_Sky_MSD-12-A.step"
+			(offset
+				(xyz 0 7.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "group127:Button"
 		(layer "F.Cu")
