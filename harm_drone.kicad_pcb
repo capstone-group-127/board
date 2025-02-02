@@ -3218,7 +3218,7 @@
 			(pintype "input")
 			(uuid "944150d7-5488-45bf-b6c1-fafb404eae6a")
 		)
-		(model "/Users/carter/Downloads/AU_Y1008_2-3 2/AU-Y1008-2.step"
+		(model "models/AU-Y1008-2.step"
 			(offset
 				(xyz 3.5 -5.5 0)
 			)
@@ -4432,7 +4432,7 @@
 			(pintype "input")
 			(uuid "a3e81e72-e0f4-4e2f-a1c7-ae5d79037b9d")
 		)
-		(model "/Users/carter/Downloads/AU_Y1008_2-3 2/AU-Y1008-2.step"
+		(model "models/AU-Y1008-2.step"
 			(offset
 				(xyz 3.5 -5.5 0)
 			)
@@ -5319,7 +5319,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "53743af1-77bc-42d2-b97a-0de290ef072a")
 		)
-		(model "/Users/carter/Downloads/JS102011SAQN-2/JS102011SAQN.step"
+		(model "models/JS102011SAQN.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6742,7 +6742,7 @@
 			(pintype "passive")
 			(uuid "2fded8a2-a3ff-443b-8a2f-3dfb57278e33")
 		)
-		(model "/Users/carter/Downloads/LIB_TUSB2046IBVF/TUSB2046IBVF/3D/TUSB2046IBVF.stp"
+		(model "models/TUSB2046IBVF.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9197,7 +9197,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "9909d6b6-00a3-4d48-84e2-c07f0bc79322")
 		)
-		(model "/Users/carter/Downloads/PRT-10474.STEP"
+		(model "models/PRT-10474.STEP"
 			(offset
 				(xyz -8 0 17)
 			)
@@ -9979,7 +9979,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "34b9a16a-cd53-408e-91ec-ed67fbefaa88")
 		)
-		(model "/Users/carter/Downloads/USB4110_GF_A-3/usb4110-gf-a.stp"
+		(model "models/usb4110-gf-a.stp"
 			(offset
 				(xyz 0 -6.5 0)
 			)
@@ -20080,7 +20080,7 @@
 			(pintype "passive")
 			(uuid "dcb75cfd-e3cf-422d-853d-9393d50eb985")
 		)
-		(model "/Users/carter/Downloads/LQFP48-7x7mm.step"
+		(model "LQFP48-7x7mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
