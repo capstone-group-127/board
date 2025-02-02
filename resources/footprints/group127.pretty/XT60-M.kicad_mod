@@ -300,4 +300,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "fa1dcdb4-4223-4e55-96b6-15837f0a4d65")
 	)
+	(model "/Users/carter/Downloads/PRT-10474.STEP"
+		(offset
+			(xyz -8 0 17)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -180 90)
+		)
+	)
 )

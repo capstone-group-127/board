@@ -340,4 +340,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "736dc37d-50d5-4514-8d83-f98ea83feb42")
 	)
+	(model "/Users/carter/Downloads/USB4110_GF_A-3/usb4110-gf-a.stp"
+		(offset
+			(xyz 0 -6.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
