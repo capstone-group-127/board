@@ -1938,46 +1938,40 @@
 		)
 	)
 	(junction
-		(at 167.64 147.32)
+		(at 106.68 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0c1a4fa9-a517-4d45-b92f-48afa3fd942a")
-	)
-	(junction
-		(at 104.14 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "230ad1ae-8f16-464f-94a4-aebe90ae2151")
-	)
-	(junction
-		(at 184.15 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2366b978-4c4c-4a04-af3a-705813bf5567")
-	)
-	(junction
-		(at 114.3 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2548490e-32ea-49bc-9f5e-d2de2906c285")
+		(uuid "19f2aad3-5a1d-4a84-b6de-180c6f18744d")
 	)
 	(junction
 		(at 101.6 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3f8d3fa6-172c-4beb-8eb0-4cbd5a393a62")
+		(uuid "276e07a7-0fd7-4654-9e2e-f2ab9ea32e84")
 	)
 	(junction
-		(at 153.67 153.67)
+		(at 161.29 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4710423b-0d40-4c3e-affa-82a165148520")
+		(uuid "297e0e07-3ad9-4389-bd33-a8625e5d9a31")
 	)
 	(junction
-		(at 154.94 153.67)
+		(at 167.64 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4d3b2431-f473-4a5c-82a3-a6a4b4d9843b")
+		(uuid "363027fd-c45a-42be-9803-780eeb7cfb18")
+	)
+	(junction
+		(at 106.68 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5381650a-efeb-406a-8d0a-2b9942640312")
+	)
+	(junction
+		(at 187.96 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55e9ba1f-f379-487d-a5a5-9f24ec73e6f0")
 	)
 	(junction
 		(at 85.09 113.03)
@@ -1986,58 +1980,112 @@
 		(uuid "62e2ec00-99e3-4f93-a592-6dfa824e31b6")
 	)
 	(junction
-		(at 190.5 97.79)
+		(at 165.1 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "76e6d7ac-682c-473e-b6be-6e8e64ab93c6")
+		(uuid "63be8820-095d-4bac-83b8-cf8f67eab5fa")
 	)
 	(junction
-		(at 167.64 153.67)
+		(at 154.94 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "77d185a7-545e-4300-a797-e0cfec1155c7")
+		(uuid "69f9ead6-98be-4ae9-8142-12458233925b")
 	)
 	(junction
-		(at 104.14 116.84)
+		(at 107.95 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "838f8efb-c6f8-4d4e-9d6b-0fb011971997")
+		(uuid "723c423f-2d74-4a45-86a9-fe8df17180f9")
 	)
 	(junction
-		(at 125.73 76.2)
+		(at 104.14 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "87c06c41-7fc3-4fc9-a7cb-a0b7a2125ab5")
+		(uuid "76dc0a56-edf0-42cb-8dbf-39fcbccbcf66")
 	)
 	(junction
-		(at 104.14 135.89)
+		(at 99.06 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8db538a9-a4b7-4a87-bd2d-fb45dc5353b2")
+		(uuid "7cbfeacb-4ed8-4aca-b265-055576f2723b")
 	)
 	(junction
-		(at 190.5 100.33)
+		(at 167.64 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9e16de9c-0686-4235-9de8-e49f08fd7ba7")
+		(uuid "7cc51482-b83d-4108-952b-35548b26ad5d")
 	)
 	(junction
-		(at 190.5 113.03)
+		(at 104.14 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b2b98fe0-b841-40b3-be09-7710b8801c23")
+		(uuid "82104407-27df-49cf-9b87-fb6d1a0f72e0")
 	)
 	(junction
-		(at 101.6 76.2)
+		(at 154.94 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d56c8c3a-0a9b-494d-82a9-711af8433975")
+		(uuid "8b86fb39-7ea3-4722-86b3-5fd780345be9")
 	)
 	(junction
-		(at 110.49 135.89)
+		(at 184.15 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e6d2e93f-80d4-4d86-a5f8-14a521f03905")
+		(uuid "8eb09613-0824-4a74-8e60-a4cc1cdaea60")
+	)
+	(junction
+		(at 99.06 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92f2b076-c54d-4db8-89f4-562ba8d2c6ac")
+	)
+	(junction
+		(at 161.29 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1a81532-534f-4824-89ed-9cd3df96a517")
+	)
+	(junction
+		(at 101.6 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "add90fa6-aa0e-495a-abd0-f79d97e19b61")
+	)
+	(junction
+		(at 95.25 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba1326eb-baf2-4d32-b1c8-0d313ee8cbd2")
+	)
+	(junction
+		(at 184.15 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d68e923e-59f0-4a34-b1db-aa899d00e6ba")
+	)
+	(junction
+		(at 165.1 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e004da47-bcc6-4bce-ba90-51f05965539e")
+	)
+	(junction
+		(at 95.25 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2369c2e-42c8-44d1-99ec-b7f835899525")
+	)
+	(junction
+		(at 187.96 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f63095ab-6066-465d-8e92-abe2c8d5d259")
+	)
+	(junction
+		(at 107.95 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f885a638-79e1-4faa-8ced-9365cf5dff35")
 	)
 	(wire
 		(pts
@@ -2051,23 +2099,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 115.57) (xy 114.3 135.89)
+			(xy 173.99 104.14) (xy 184.15 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08ae9b9e-74b8-4d38-abed-f88eeb38dd1f")
-	)
-	(wire
-		(pts
-			(xy 190.5 97.79) (xy 190.5 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f907ea8-d880-4f7a-a397-bfb8e8b596e2")
+		(uuid "0b87fb75-cb63-4ad1-94f1-cab4ff184a84")
 	)
 	(wire
 		(pts
@@ -2081,6 +2119,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 91.44) (xy 191.77 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13245bff-a93b-42bc-b59a-11547a5801cc")
+	)
+	(wire
+		(pts
 			(xy 148.59 147.32) (xy 148.59 143.51)
 		)
 		(stroke
@@ -2088,16 +2136,6 @@
 			(type default)
 		)
 		(uuid "18ecb76d-54c9-40ea-a76d-4c43440d3ad7")
-	)
-	(wire
-		(pts
-			(xy 154.94 147.32) (xy 154.94 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "197b85e1-8a65-4fa8-839d-e36e0a9169d5")
 	)
 	(wire
 		(pts
@@ -2111,13 +2149,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 69.85) (xy 101.6 76.2)
+			(xy 106.68 118.11) (xy 106.68 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23b1fa0c-387b-4c1c-801a-c61a560c936a")
+		(uuid "211b4213-4bfa-4de7-b830-3a0b6371353a")
 	)
 	(wire
 		(pts
@@ -2131,43 +2169,73 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 100.33) (xy 180.34 100.33)
+			(xy 167.64 148.59) (xy 173.99 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2b2924f4-ca29-4fd7-b7ea-91ed08af4d60")
+		(uuid "2915b8dc-f9b6-4363-8b61-d4f2dcf7bdb3")
 	)
 	(wire
 		(pts
-			(xy 151.13 144.78) (xy 167.64 144.78)
+			(xy 154.94 148.59) (xy 161.29 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f33fae7-982b-4a6b-94a4-bd342856e46a")
+		(uuid "2d683921-0685-4f59-a4d4-75552aea3a54")
 	)
 	(wire
 		(pts
-			(xy 128.27 66.04) (xy 128.27 80.01)
+			(xy 165.1 161.29) (xy 167.64 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d711262-f98a-4604-8f93-457469994960")
+		(uuid "2f98004f-760c-48c7-b91f-d3c5cfabffc4")
 	)
 	(wire
 		(pts
-			(xy 167.64 153.67) (xy 167.64 160.02)
+			(xy 184.15 104.14) (xy 187.96 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42015b5e-30e8-4cd3-844a-06b181b892f5")
+		(uuid "30901bb9-f7fa-424a-a291-7bc033b8d9d4")
+	)
+	(wire
+		(pts
+			(xy 154.94 161.29) (xy 161.29 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7b5802-5c0f-4100-97eb-39f3e170fb77")
+	)
+	(wire
+		(pts
+			(xy 106.68 134.62) (xy 116.84 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d015e80-8b0b-45e0-91c4-81765ca791cb")
+	)
+	(wire
+		(pts
+			(xy 161.29 100.33) (xy 173.99 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9b0287-c2d5-4d64-82af-c9ef5cded43c")
 	)
 	(wire
 		(pts
@@ -2181,33 +2249,43 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 113.03) (xy 184.15 113.03)
+			(xy 104.14 134.62) (xy 106.68 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43406906-c444-4dc2-a162-be8012669f27")
+		(uuid "4a3c382e-c19c-45b2-9071-2b15f3e46239")
 	)
 	(wire
 		(pts
-			(xy 151.13 143.51) (xy 151.13 144.78)
+			(xy 95.25 82.55) (xy 99.06 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45808bdb-b35a-4d8b-a254-6cfdd3954205")
+		(uuid "4d1b6d2c-947d-46da-97c2-eedeef2f19d7")
 	)
 	(wire
 		(pts
-			(xy 110.49 132.08) (xy 110.49 135.89)
+			(xy 107.95 69.85) (xy 125.73 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ebf0f32-5619-4112-b792-c36dc42035ae")
+		(uuid "4ddb7131-66b8-4018-b979-cef2fbb8e2c1")
+	)
+	(wire
+		(pts
+			(xy 187.96 90.17) (xy 187.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513ea010-cb92-4bda-a46c-a187d3399a7f")
 	)
 	(wire
 		(pts
@@ -2221,53 +2299,63 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 116.84) (xy 104.14 119.38)
+			(xy 116.84 134.62) (xy 116.84 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54b5349c-18b3-4a21-8db6-d148cf46301b")
+		(uuid "52f81561-1e62-4074-8783-36867631ffd5")
 	)
 	(wire
 		(pts
-			(xy 184.15 100.33) (xy 190.5 100.33)
+			(xy 161.29 161.29) (xy 165.1 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5954b618-7bf8-4c76-8d3d-bb40ce110e10")
+		(uuid "54434d22-9936-4a7f-a0f2-b2ba79784ea2")
 	)
 	(wire
 		(pts
-			(xy 153.67 143.51) (xy 153.67 153.67)
+			(xy 187.96 104.14) (xy 191.77 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5aa9b401-5a0a-4d10-927d-a5acf5cfc0a9")
+		(uuid "5afbeef7-6e53-4cf9-910b-7be99d3f807b")
 	)
 	(wire
 		(pts
-			(xy 190.5 97.79) (xy 208.28 97.79)
+			(xy 99.06 69.85) (xy 101.6 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b213a05-aeae-41d2-8d22-a05b01033d52")
+		(uuid "5b2c6826-f66b-4dc4-bd56-ca0246478a5e")
 	)
 	(wire
 		(pts
-			(xy 167.64 144.78) (xy 167.64 147.32)
+			(xy 173.99 100.33) (xy 173.99 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e5963f5-661b-47ed-b002-280987e2910b")
+		(uuid "5e6ff841-18e1-4066-8d0d-255ad2389e1d")
+	)
+	(wire
+		(pts
+			(xy 184.15 91.44) (xy 187.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1e4cac-2277-436b-bdcd-67bf85b099fd")
 	)
 	(wire
 		(pts
@@ -2281,13 +2369,33 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 153.67) (xy 154.94 160.02)
+			(xy 165.1 148.59) (xy 167.64 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c777233-0681-42ff-859a-b0ef576703d9")
+		(uuid "65d04404-2c20-4e10-9bb0-9407288b4de0")
+	)
+	(wire
+		(pts
+			(xy 125.73 69.85) (xy 125.73 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d38940-511c-4962-a08b-95699b8f0f53")
+	)
+	(wire
+		(pts
+			(xy 116.84 115.57) (xy 118.11 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69492a51-fee0-4b88-a8e7-166f23a5051e")
 	)
 	(wire
 		(pts
@@ -2301,36 +2409,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 135.89) (xy 110.49 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71255e4d-653a-4335-b7b7-aaa6f876f4da")
-	)
-	(wire
-		(pts
-			(xy 101.6 66.04) (xy 128.27 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75f587aa-ee64-4c01-9799-cf7c5fc90b4f")
-	)
-	(wire
-		(pts
-			(xy 115.57 97.79) (xy 118.11 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "764ff14d-acd2-4d8f-9e20-28c5bf61a5ab")
-	)
-	(wire
-		(pts
 			(xy 133.35 143.51) (xy 133.35 147.32)
 		)
 		(stroke
@@ -2341,73 +2419,63 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 76.2) (xy 125.73 80.01)
+			(xy 118.11 118.11) (xy 106.68 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e096d33-3cd9-4d26-9974-231db058cfbe")
+		(uuid "7e4f91fb-cf3c-4656-8151-877537c83f4a")
 	)
 	(wire
 		(pts
-			(xy 167.64 147.32) (xy 167.64 153.67)
+			(xy 167.64 161.29) (xy 173.99 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "819a96d4-1c30-4216-8df5-d9ef2ca0c198")
+		(uuid "7f72ed09-3b83-4610-b0c4-5d8c41a7755b")
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 101.6 82.55)
+			(xy 151.13 161.29) (xy 151.13 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8297b953-8b90-42f2-be99-29cd1a124b41")
+		(uuid "82b4f8f4-3290-4232-b87a-264fead8fbbd")
 	)
 	(wire
 		(pts
-			(xy 118.11 115.57) (xy 114.3 115.57)
+			(xy 128.27 78.74) (xy 128.27 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85b87568-3826-4d0b-91f2-d8af7bf12175")
+		(uuid "842362d6-ab2a-4617-81dc-b87a87f0513d")
 	)
 	(wire
 		(pts
-			(xy 184.15 113.03) (xy 190.5 113.03)
+			(xy 154.94 148.59) (xy 154.94 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "868f53c6-6a68-4059-9e0c-5102a544ae53")
+		(uuid "84919b9e-fb1d-426d-84c2-174d67651a75")
 	)
 	(wire
 		(pts
-			(xy 110.49 135.89) (xy 104.14 135.89)
+			(xy 88.9 69.85) (xy 95.25 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d29d7ef-714f-4a60-be60-4f0051129742")
-	)
-	(wire
-		(pts
-			(xy 114.3 76.2) (xy 125.73 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93467810-c368-4bf6-8e21-dda900a868cc")
+		(uuid "908c367f-aaa2-4098-8071-4cf48bd7d515")
 	)
 	(wire
 		(pts
@@ -2421,23 +2489,33 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 113.03) (xy 196.85 113.03)
+			(xy 173.99 97.79) (xy 173.99 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9859f673-c4dd-48f1-97e3-a647e8e560cc")
+		(uuid "957de355-1215-4ce0-8d31-5bfb22ac1f48")
 	)
 	(wire
 		(pts
-			(xy 190.5 100.33) (xy 196.85 100.33)
+			(xy 104.14 121.92) (xy 106.68 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a2c046c-8fe0-48ec-b87e-153def8fb68a")
+		(uuid "9944f12f-cc9a-4bc5-8365-52da7ed4db5b")
+	)
+	(wire
+		(pts
+			(xy 110.49 82.55) (xy 107.95 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ea7f56c-ad09-4825-9235-8a52a2285c64")
 	)
 	(wire
 		(pts
@@ -2451,6 +2529,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 82.55) (xy 95.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a23e6b74-f301-409d-a2c6-57b792b76bfb")
+	)
+	(wire
+		(pts
 			(xy 77.47 113.03) (xy 85.09 113.03)
 		)
 		(stroke
@@ -2461,33 +2549,83 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 153.67) (xy 153.67 162.56)
+			(xy 161.29 97.79) (xy 173.99 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af52ffb1-2bab-4720-bb4b-ed7c2dab0809")
+		(uuid "a48e5473-6f0b-4a3d-afbf-2dae3c75760c")
 	)
 	(wire
 		(pts
-			(xy 104.14 119.38) (xy 110.49 119.38)
+			(xy 95.25 69.85) (xy 99.06 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b13fbeac-6c46-4c77-8a1b-94f95a8c7448")
+		(uuid "aa28d4d0-edf8-4958-ad56-1dded00026dc")
 	)
 	(wire
 		(pts
-			(xy 125.73 71.12) (xy 125.73 76.2)
+			(xy 99.06 67.31) (xy 99.06 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b829fbb4-f149-47ca-b928-04aec620c4a9")
+		(uuid "af555f73-ba20-45f5-8a6e-befe943282ca")
+	)
+	(wire
+		(pts
+			(xy 104.14 120.65) (xy 104.14 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0373766-4d92-4f7d-9b5b-ae5c711fcb4b")
+	)
+	(wire
+		(pts
+			(xy 100.33 134.62) (xy 104.14 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f43f7c-3e62-45a2-a066-cc71e7ccea19")
+	)
+	(wire
+		(pts
+			(xy 100.33 121.92) (xy 104.14 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b34ef9db-a530-4daa-a024-5160e9b07bc1")
+	)
+	(wire
+		(pts
+			(xy 173.99 91.44) (xy 184.15 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d0d31d-41a2-4ca3-9d7b-1cf098426530")
+	)
+	(wire
+		(pts
+			(xy 99.06 82.55) (xy 101.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfa14934-9a23-4483-812c-9138196619f5")
 	)
 	(wire
 		(pts
@@ -2501,13 +2639,13 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 100.33) (xy 180.34 113.03)
+			(xy 165.1 146.05) (xy 165.1 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3118e7f-bdde-4b67-8914-09c9b5aa9afa")
+		(uuid "c75acc32-5900-4f2c-ba6c-6d376200a528")
 	)
 	(wire
 		(pts
@@ -2521,23 +2659,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 153.67) (xy 154.94 153.67)
+			(xy 151.13 161.29) (xy 154.94 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca191771-3004-4665-a6d4-5130aab43a82")
-	)
-	(wire
-		(pts
-			(xy 118.11 116.84) (xy 104.14 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd2f8361-26ba-422c-8248-867aff792ab3")
+		(uuid "ca9e3936-2816-492e-81d2-7fdf61dfea8c")
 	)
 	(wire
 		(pts
@@ -2551,13 +2679,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 115.57) (xy 104.14 115.57)
+			(xy 101.6 69.85) (xy 107.95 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d20137cd-6ade-4a78-a8d0-e2cde460219d")
+		(uuid "cf20579d-8e87-41d7-8f61-e254dfd7f488")
 	)
 	(wire
 		(pts
@@ -2571,6 +2699,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 78.74) (xy 110.49 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d690e2f5-329d-4bf4-b8fc-1bc0bd88ac35")
+	)
+	(wire
+		(pts
 			(xy 138.43 72.39) (xy 135.89 72.39)
 		)
 		(stroke
@@ -2581,43 +2719,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 69.85) (xy 114.3 76.2)
+			(xy 161.29 148.59) (xy 165.1 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8fab3b7-8544-440b-869a-9786ad848cc9")
+		(uuid "da2e6f43-45ed-4c00-b485-b7a299ab7ccb")
 	)
 	(wire
 		(pts
-			(xy 161.29 97.79) (xy 190.5 97.79)
+			(xy 154.94 143.51) (xy 153.67 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc5a1817-cd66-43ed-8504-844616110929")
-	)
-	(wire
-		(pts
-			(xy 114.3 76.2) (xy 114.3 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2a2de98-edf9-4e89-9ecc-d997a9e88af2")
-	)
-	(wire
-		(pts
-			(xy 97.79 119.38) (xy 104.14 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8a3923b-8141-44f1-87d7-e2ca850a72fc")
+		(uuid "de5ea6ab-38f2-4686-8758-10a0f9ace01c")
 	)
 	(wire
 		(pts
@@ -2631,46 +2749,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 135.89) (xy 97.79 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed162045-4f50-4f1c-9c2c-0e0dbb1900b0")
-	)
-	(wire
-		(pts
-			(xy 97.79 132.08) (xy 97.79 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed566044-bfad-4b20-95c9-108195c7c85f")
-	)
-	(wire
-		(pts
-			(xy 104.14 115.57) (xy 104.14 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed5dd80c-856c-4b80-a2c0-cc07f54e50db")
-	)
-	(wire
-		(pts
-			(xy 101.6 69.85) (xy 101.6 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edacba7c-5f58-4121-b2dc-0e461f9f61b2")
-	)
-	(wire
-		(pts
 			(xy 140.97 143.51) (xy 140.97 147.32)
 		)
 		(stroke
@@ -2681,13 +2759,45 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 116.84) (xy 118.11 118.11)
+			(xy 101.6 82.55) (xy 107.95 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7eeb6a4-1138-4102-8c1c-75749c4b2c15")
+		(uuid "f52c2331-dcd6-4e63-b269-36d9b6481c3a")
+	)
+	(wire
+		(pts
+			(xy 110.49 78.74) (xy 128.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4b1ac1-2193-4f03-a573-03b9ebbd8820")
+	)
+	(global_label "3V3"
+		(shape output)
+		(at 165.1 146.05 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02b335ab-c902-44eb-bb56-5467afe27680")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.1 139.5572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "RXD_USB2SERIAL"
 		(shape input)
@@ -2749,28 +2859,6 @@
 			)
 		)
 	)
-	(global_label "3V3"
-		(shape input)
-		(at 99.06 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4d07765a-9dc3-47b2-98a9-65b4755b9f58")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.5672 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MISO 1"
 		(shape bidirectional)
 		(at 133.35 147.32 270)
@@ -2812,8 +2900,8 @@
 		)
 	)
 	(global_label "3V3"
-		(shape input)
-		(at 125.73 71.12 90)
+		(shape output)
+		(at 187.96 90.17 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2821,9 +2909,9 @@
 			)
 			(justify left)
 		)
-		(uuid "65a1a120-2091-45ee-9587-0f3b1d9579e3")
+		(uuid "653337f3-4e6e-4764-a4eb-7ecf539d01d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.73 64.6272 90)
+			(at 187.96 83.6772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,28 +3001,6 @@
 			)
 		)
 	)
-	(global_label "3V3"
-		(shape input)
-		(at 153.67 162.56 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a96d7737-81f7-40c5-b370-27ebbda1f24e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.67 169.0528 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "~{CS} SRAM"
 		(shape input)
 		(at 143.51 147.32 270)
@@ -2951,28 +3017,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape output)
-		(at 115.57 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ac2afa06-03ec-443d-8b8b-fbfa4bde8dda")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.0772 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3017,6 +3061,28 @@
 			)
 		)
 	)
+	(global_label "3V3"
+		(shape output)
+		(at 104.14 120.65 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c67d3a88-f09e-4ac5-9858-d31d5152722a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.14 114.1572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D0+"
 		(shape input)
 		(at 161.29 105.41 0)
@@ -3057,28 +3123,6 @@
 			)
 		)
 	)
-	(global_label "3V3"
-		(shape input)
-		(at 208.28 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "da1c41ed-8eaf-4a36-b5c8-5c0af0b180df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.7728 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "~{USB_RESET}"
 		(shape input)
 		(at 161.29 125.73 0)
@@ -3095,6 +3139,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape output)
+		(at 99.06 67.31 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1d382eb-2df3-4a09-9d33-4011886b2d3f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.06 60.8172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3137,6 +3203,372 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "group127:0805Capacitor")
+		(at 184.15 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0519d252-c8f7-472c-9ba0-00ae2a2890b8")
+		(property "Reference" "C32"
+			(at 187.96 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 187.96 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 280.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
+			(at 380.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
+			(at 184.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at 580.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-08055C104K"
+			(at 680.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
+			(at 780.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 880.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "08055C104KAT2A"
+			(at 980.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80dad8ca-f26e-4f45-98f7-f4fb09b067a6")
+		)
+		(pin "2"
+			(uuid "86836728-845d-4072-8d6f-3da2fba3fda7")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "group127:0805Capacitor")
+		(at 173.99 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13808ac9-8f3c-43c2-94fa-a77c0e255a76")
+		(property "Reference" "C31"
+			(at 177.8 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 177.8 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 270.18 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
+			(at 370.18 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
+			(at 173.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at 570.18 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-08055C104K"
+			(at 670.18 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
+			(at 770.18 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 870.18 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "08055C104KAT2A"
+			(at 970.18 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d6288d7-e64f-4625-b873-d0a019b246f8")
+		)
+		(pin "2"
+			(uuid "46aa12f0-bd8f-4f1f-b7fc-135181f4b847")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "group127:0805Capacitor")
+		(at 191.77 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b7f3c58-bccd-48a3-b489-33c7b14de1d3")
+		(property "Reference" "C33"
+			(at 195.58 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 195.58 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 287.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
+			(at 387.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
+			(at 191.77 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at 587.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-08055C104K"
+			(at 687.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
+			(at 787.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 887.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "08055C104KAT2A"
+			(at 987.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73ddc094-67e6-4ad2-bd81-92e79de2e769")
+		)
+		(pin "2"
+			(uuid "9a019aa7-e744-4f93-b3db-0c303ba52141")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
+					(reference "C33")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3207,6 +3639,128 @@
 		)
 	)
 	(symbol
+		(lib_id "group127:0805Capacitor")
+		(at 161.29 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "217f6419-3ba3-44b8-bcd8-ee0534455792")
+		(property "Reference" "C29"
+			(at 165.1 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 165.1 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 257.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
+			(at 357.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
+			(at 161.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at 557.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-08055C104K"
+			(at 657.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
+			(at 757.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 857.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "08055C104KAT2A"
+			(at 957.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcea0e52-7558-4d88-aa57-bf8e5089b1c8")
+		)
+		(pin "2"
+			(uuid "44205d5a-aa4c-449e-bc68-05c1f83e55fe")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 138.43 72.39 0)
 		(unit 1)
@@ -3267,6 +3821,204 @@
 			(project "harm_drone"
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c1fa146-5ff4-4c0d-af66-c1380f8302df")
+		(property "Reference" "#PWR06"
+			(at 104.14 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66286dc1-36dc-407f-9f44-2257d371ba9a")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c5e96af-e68c-42e3-b79e-896e45967e39")
+		(property "Reference" "#PWR04"
+			(at 187.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fca6f3fb-0b91-4eb2-8df7-53f06af35a9d")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cdd20b6-6865-49ee-92ad-58ce20bb875a")
+		(property "Reference" "#PWR03"
+			(at 165.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18b0f45a-a7e1-4c50-80f8-2fabc8613f0b")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3459,126 +4211,6 @@
 		)
 	)
 	(symbol
-		(lib_id "group127:0805Capacitor")
-		(at 167.64 160.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "392c5b3f-81a4-463e-a9c0-4f54e1bb06f8")
-		(property "Reference" "C17"
-			(at 161.29 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 161.29 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 158.75 63.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
-			(at 158.75 -36.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
-			(at 167.64 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.94"
-			(at 158.75 -236.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-08055C104K"
-			(at 158.75 -336.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
-			(at 158.75 -436.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 158.75 -536.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "08055C104KAT2A"
-			(at 158.75 -636.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62c319c1-4ec4-4ffe-a472-b3bdfcdc3b3f")
-		)
-		(pin "2"
-			(uuid "18eeac01-ebab-4373-8ac6-9fced8dd9893")
-		)
-		(instances
-			(project "harm_drone"
-				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 101.6 100.33 270)
 		(unit 1)
@@ -3639,6 +4271,128 @@
 			(project "harm_drone"
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "group127:0805Capacitor")
+		(at 95.25 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4798b658-4274-4be1-bd42-3eb92ba99820")
+		(property "Reference" "C18"
+			(at 99.06 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 99.06 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 191.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
+			(at 291.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
+			(at 95.25 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at 491.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-08055C104K"
+			(at 591.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
+			(at 691.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 791.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "08055C104KAT2A"
+			(at 891.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da4fafcf-9a05-4df6-8d2b-605834a80196")
+		)
+		(pin "2"
+			(uuid "7680955d-1d3b-4897-91e6-0305461acee7")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3904,498 +4658,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 76.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55816266-a5a0-49ab-8536-cfa3d52aa386")
-		(property "Reference" "#PWR04"
-			(at 95.25 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6dbb7b0-283f-4132-bb09-eb549e7dbe94")
-		)
-		(instances
-			(project "harm_drone"
-				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "group127:0805Capacitor")
-		(at 110.49 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63094e84-f895-4608-b3e3-b86aab7f2c49")
-		(property "Reference" "C15"
-			(at 102.87 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 105.41 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 206.68 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
-			(at 306.68 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
-			(at 110.49 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.94"
-			(at 506.68 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-08055C104K"
-			(at 606.68 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
-			(at 706.68 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 806.68 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "08055C104KAT2A"
-			(at 906.68 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb6101e0-691d-457d-9522-906615a84580")
-		)
-		(pin "2"
-			(uuid "0a2dc8d9-75c5-4295-a7ea-a76ee525d0d5")
-		)
-		(instances
-			(project "harm_drone"
-				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "group127:0805Capacitor")
-		(at 114.3 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63203ac5-8b1c-4585-8e33-704adea03d1e")
-		(property "Reference" "C21"
-			(at 107.95 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 107.95 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 105.41 -26.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
-			(at 105.41 -126.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
-			(at 114.3 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.94"
-			(at 105.41 -326.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-08055C104K"
-			(at 105.41 -426.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
-			(at 105.41 -526.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 105.41 -626.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "08055C104KAT2A"
-			(at 105.41 -726.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24142717-4056-49ee-9287-43419078b1c9")
-		)
-		(pin "2"
-			(uuid "1547d350-fb50-45dd-a70c-c16d76716f49")
-		)
-		(instances
-			(project "harm_drone"
-				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 104.14 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64a105fd-d40e-40bd-9212-a4eb1e7e99ff")
-		(property "Reference" "#PWR03"
-			(at 104.14 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71253147-20b4-4e33-98c7-69b764f2aede")
-		)
-		(instances
-			(project "harm_drone"
-				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "group127:0805Capacitor")
-		(at 184.15 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64baed21-847b-4df8-b003-b419df2d20a7")
-		(property "Reference" "C19"
-			(at 191.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 189.23 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 87.96 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
-			(at -12.04 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
-			(at 184.15 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.94"
-			(at -212.04 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-08055C104K"
-			(at -312.04 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
-			(at -412.04 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -512.04 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "08055C104KAT2A"
-			(at -612.04 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76798030-213f-4a53-b972-4b5c933ef134")
-		)
-		(pin "2"
-			(uuid "40c37b51-6078-44de-8425-76a313f8a2d6")
-		)
-		(instances
-			(project "harm_drone"
-				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 85.09 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4462,32 +4724,34 @@
 	)
 	(symbol
 		(lib_id "group127:0805Capacitor")
-		(at 196.85 100.33 270)
+		(at 167.64 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ece5e2e-94f1-44d7-9609-3e7c3a59d936")
-		(property "Reference" "C20"
-			(at 204.47 106.68 0)
+		(uuid "69dd5ebd-23c3-4aa0-8b34-3964fe2af5fb")
+		(property "Reference" "C30"
+			(at 171.45 153.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 201.93 106.68 0)
+			(at 171.45 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 100.66 109.22 0)
+			(at 263.83 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,7 +4761,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
-			(at 0.66 109.22 0)
+			(at 363.83 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4507,7 +4771,7 @@
 			)
 		)
 		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
-			(at 196.85 100.33 0)
+			(at 167.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +4780,7 @@
 			)
 		)
 		(property "Height" "0.94"
-			(at -199.34 109.22 0)
+			(at 563.83 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4526,7 +4790,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-08055C104K"
-			(at -299.34 109.22 0)
+			(at 663.83 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +4800,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
-			(at -399.34 109.22 0)
+			(at 763.83 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4546,7 +4810,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -499.34 109.22 0)
+			(at 863.83 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +4820,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "08055C104KAT2A"
-			(at -599.34 109.22 0)
+			(at 963.83 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,32 +4830,68 @@
 			)
 		)
 		(pin "1"
-			(uuid "b76a150a-8c7c-4a8b-bbe7-0a06b021108f")
+			(uuid "70f0e139-1f2a-4501-853e-3bd7b23b9ed6")
 		)
 		(pin "2"
-			(uuid "e7750428-167f-4d21-8efb-6c36ee524f1a")
+			(uuid "df9420ae-126d-446a-a7dc-6e81b374cb83")
 		)
 		(instances
 			(project "harm_drone"
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
-					(reference "C20")
+					(reference "C30")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 167.64 153.67 90)
+		(lib_id "group127:0805Capacitor")
+		(at 100.33 121.92 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b92f2be-f136-438d-94f8-6afe966779a0")
-		(property "Reference" "#PWR06"
-			(at 173.99 153.67 0)
+		(uuid "88167ce5-9a55-4901-a435-b1dfb07ac100")
+		(property "Reference" "C15"
+			(at 92.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 95.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 196.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
+			(at 296.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
+			(at 100.33 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4599,49 +4899,66 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 171.45 153.6699 90)
+		(property "Height" "0.94"
+			(at 496.52 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 167.64 153.67 0)
+		(property "Mouser Part Number" "581-08055C104K"
+			(at 596.52 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 153.67 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
+			(at 696.52 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 796.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "08055C104KAT2A"
+			(at 896.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "8b3127c3-4bdd-4b89-82f3-411f93b704e8")
+			(uuid "ce502c3e-a1fa-41af-96de-92722361cbc2")
+		)
+		(pin "2"
+			(uuid "eda67549-11d6-4602-bff5-3aa8961325f9")
 		)
 		(instances
 			(project "harm_drone"
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
-					(reference "#PWR06")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4833,32 +5150,34 @@
 	)
 	(symbol
 		(lib_id "group127:0805Capacitor")
-		(at 97.79 132.08 90)
+		(at 106.68 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b2856973-3f31-4c8e-9208-e73a7eb41fd5")
+		(uuid "a12df690-419f-4b15-bc75-2f8ca8dc55a6")
 		(property "Reference" "C16"
-			(at 90.17 125.73 0)
+			(at 110.49 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 92.71 125.73 0)
+			(at 110.49 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 193.98 123.19 0)
+			(at 202.87 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +5187,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
-			(at 293.98 123.19 0)
+			(at 302.87 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,7 +5197,7 @@
 			)
 		)
 		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
-			(at 97.79 132.08 0)
+			(at 106.68 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,7 +5206,7 @@
 			)
 		)
 		(property "Height" "0.94"
-			(at 493.98 123.19 0)
+			(at 502.87 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,7 +5216,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-08055C104K"
-			(at 593.98 123.19 0)
+			(at 602.87 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +5226,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
-			(at 693.98 123.19 0)
+			(at 702.87 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4917,7 +5236,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 793.98 123.19 0)
+			(at 802.87 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4927,7 +5246,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "08055C104KAT2A"
-			(at 893.98 123.19 0)
+			(at 902.87 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,10 +5256,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "76037e3a-dda2-4423-9b77-c9a37dde2058")
+			(uuid "e2b3cc12-793c-4d16-acb8-809ce8cc055e")
 		)
 		(pin "2"
-			(uuid "cced8408-edeb-4c24-a48c-f236cf36043f")
+			(uuid "48a66957-774f-4ac7-b54f-561c5cbc681b")
 		)
 		(instances
 			(project "harm_drone"
@@ -4953,32 +5272,34 @@
 	)
 	(symbol
 		(lib_id "group127:0805Capacitor")
-		(at 114.3 82.55 180)
+		(at 107.95 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c58926d5-e773-485c-8df4-0926a8d46132")
+		(uuid "a4a114a2-a844-416c-80be-ddb4dd1b7c85")
 		(property "Reference" "C22"
-			(at 107.95 90.17 0)
+			(at 111.76 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 107.95 87.63 0)
+		(property "Value" "4.7uF"
+			(at 111.76 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 105.41 -13.64 0)
+			(at 204.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +5309,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
-			(at 105.41 -113.64 0)
+			(at 304.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,7 +5319,7 @@
 			)
 		)
 		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
-			(at 114.3 82.55 0)
+			(at 107.95 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5007,7 +5328,7 @@
 			)
 		)
 		(property "Height" "0.94"
-			(at 105.41 -313.64 0)
+			(at 504.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,7 +5338,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-08055C104K"
-			(at 105.41 -413.64 0)
+			(at 604.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5027,7 +5348,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
-			(at 105.41 -513.64 0)
+			(at 704.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +5358,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 105.41 -613.64 0)
+			(at 804.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +5368,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "08055C104KAT2A"
-			(at 105.41 -713.64 0)
+			(at 904.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5057,10 +5378,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "61876025-cb50-4d87-80ab-4d69a84a44e9")
+			(uuid "d38fd674-0e22-4e89-9465-fc96e201c800")
 		)
 		(pin "2"
-			(uuid "5862cdb9-57bd-4d54-9deb-c3fe2cefa7a7")
+			(uuid "fe9e8736-c093-4316-bed7-44cc79f08c71")
 		)
 		(instances
 			(project "harm_drone"
@@ -5072,99 +5393,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 190.5 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd4c2e68-8947-459e-ac9c-f1f536359e23")
-		(property "Reference" "#PWR08"
-			(at 190.5 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fc409d9-be3e-4a4e-8c0a-b0335af972a3")
-		)
-		(instances
-			(project "harm_drone"
-				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "group127:0805Capacitor")
-		(at 167.64 147.32 180)
+		(at 154.94 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cff99946-88d3-4298-8590-62ef9b89590f")
-		(property "Reference" "C18"
-			(at 161.29 154.94 0)
+		(uuid "b156eb84-2b99-426e-977f-fc95e60c83ad")
+		(property "Reference" "C28"
+			(at 158.75 153.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "10uF"
-			(at 161.29 152.4 0)
+		(property "Value" "0.1uF"
+			(at 158.75 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 158.75 51.13 0)
+			(at 251.13 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5174,7 +5430,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
-			(at 158.75 -48.87 0)
+			(at 351.13 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5184,7 +5440,7 @@
 			)
 		)
 		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
-			(at 167.64 147.32 0)
+			(at 154.94 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5449,7 @@
 			)
 		)
 		(property "Height" "0.94"
-			(at 158.75 -248.87 0)
+			(at 551.13 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5459,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-08055C104K"
-			(at 158.75 -348.87 0)
+			(at 651.13 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5213,7 +5469,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
-			(at 158.75 -448.87 0)
+			(at 751.13 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5479,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 158.75 -548.87 0)
+			(at 851.13 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,7 +5489,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "08055C104KAT2A"
-			(at 158.75 -648.87 0)
+			(at 951.13 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,15 +5499,136 @@
 			)
 		)
 		(pin "1"
-			(uuid "3002d612-07c5-4f33-a93e-c778b9357e5a")
+			(uuid "11a2220f-4cbb-4dc7-bf6b-1002e2ebc59c")
 		)
 		(pin "2"
-			(uuid "6852f31e-db47-4170-abda-06b7ce879f22")
+			(uuid "292f04f1-4d1e-407a-a36a-aec1cb7d21ce")
 		)
 		(instances
 			(project "harm_drone"
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
-					(reference "C18")
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "group127:0805Capacitor")
+		(at 88.9 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba6a6883-ea98-47f9-83b1-fbdcbfa464de")
+		(property "Reference" "C17"
+			(at 92.71 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 92.71 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 185.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
+			(at 285.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at 485.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-08055C104K"
+			(at 585.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
+			(at 685.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 785.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "08055C104KAT2A"
+			(at 885.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3c5d51b-b588-4e40-9b57-6018b44afb01")
+		)
+		(pin "2"
+			(uuid "0c370339-95e8-40c3-af1a-b0eae29baa4d")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -5323,6 +5700,194 @@
 			(project ""
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f39c1b7d-b352-4a5c-a53a-e5578807b6b8")
+		(property "Reference" "#PWR08"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0aefc9c5-1b4e-4db4-a986-73d60c0d551d")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "group127:0805Capacitor")
+		(at 101.6 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9671658-06a8-4bc0-9a37-1192d3b3379f")
+		(property "Reference" "C21"
+			(at 105.41 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 105.41 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 197.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.avx.com/X7RDielectric.pdf"
+			(at 297.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "0805 X7R ceramic capacitor,100nF 50V AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 50 V dc, +125degC, X7R Dielectric,  /-10% SMD"
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at 497.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-08055C104K"
+			(at 597.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAT2A?qs=2ujN4bDBNE9mJvapP%252BjopA%3D%3D"
+			(at 697.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 797.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "08055C104KAT2A"
+			(at 897.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef5a2b43-7435-468f-9a77-dba60ad4544b")
+		)
+		(pin "2"
+			(uuid "eefaba92-1f77-4cb3-8ec3-739a6e4ab3a8")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
+					(reference "C21")
 					(unit 1)
 				)
 			)
