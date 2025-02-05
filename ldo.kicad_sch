@@ -688,7 +688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19afed87-df81-427e-a0b3-a8dbe9291a26")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 189.23 116.84 0)
 			(effects
 				(font
@@ -738,7 +738,7 @@
 		(instances
 			(project "harm_drone"
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/06c65770-b1a9-4683-9717-b848c80eccc4"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -760,7 +760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ef3e8c5-36a1-4e21-9120-27175135b307")
-		(property "Reference" "C6"
+		(property "Reference" "C18"
 			(at 154.94 102.8699 90)
 			(effects
 				(font
@@ -866,7 +866,7 @@
 		(instances
 			(project "harm_drone"
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/06c65770-b1a9-4683-9717-b848c80eccc4"
-					(reference "C6")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -888,7 +888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47b5aa11-139d-4185-883e-297f23cf1dd9")
-		(property "Reference" "C7"
+		(property "Reference" "C19"
 			(at 193.04 102.8699 90)
 			(effects
 				(font
@@ -994,7 +994,7 @@
 		(instances
 			(project ""
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/06c65770-b1a9-4683-9717-b848c80eccc4"
-					(reference "C7")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -1016,7 +1016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "658e3522-3ad3-40ae-999d-1436736737f0")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 151.13 123.19 0)
 			(effects
 				(font
@@ -1066,7 +1066,7 @@
 		(instances
 			(project "harm_drone"
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/06c65770-b1a9-4683-9717-b848c80eccc4"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -1088,7 +1088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b25e586e-510c-4b08-9917-f46ddf908221")
-		(property "Reference" "IC4"
+		(property "Reference" "IC3"
 			(at 157.226 72.644 0)
 			(effects
 				(font
@@ -1203,7 +1203,7 @@
 		(instances
 			(project ""
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/06c65770-b1a9-4683-9717-b848c80eccc4"
-					(reference "IC4")
+					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -1225,7 +1225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c208315b-46e1-4b42-bee1-2690aaa62f06")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR021"
 			(at 154.94 96.52 0)
 			(effects
 				(font
@@ -1275,7 +1275,7 @@
 		(instances
 			(project "harm_drone"
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd/06c65770-b1a9-4683-9717-b848c80eccc4"
-					(reference "#PWR034")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)

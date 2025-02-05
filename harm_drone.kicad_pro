@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.9144,
+          "height": 1.4224,
+          "width": 1.4224
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -63,7 +63,7 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "ignore",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -180,6 +180,7 @@
       "track_widths": [
         0.0,
         0.8,
+        1.0,
         3.5
       ],
       "tuning_pattern_settings": {
@@ -490,8 +491,8 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
-      "svg": "",
+      "step": "harm_drone.step",
+      "svg": "/Users/carter/Downloads/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
