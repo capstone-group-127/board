@@ -2087,6 +2087,18 @@
 		(color 0 0 0 0)
 		(uuid "f885a638-79e1-4faa-8ced-9365cf5dff35")
 	)
+	(no_connect
+		(at 161.29 115.57)
+		(uuid "33f4bc6d-44cb-4804-b227-058691b9c5e3")
+	)
+	(no_connect
+		(at 161.29 105.41)
+		(uuid "85f36fb6-f77c-49bc-a49b-396948341630")
+	)
+	(no_connect
+		(at 161.29 107.95)
+		(uuid "b93d10ad-ae5b-4ee7-90b4-6bb154f6a389")
+	)
 	(wire
 		(pts
 			(xy 130.81 143.51) (xy 130.81 147.32)
@@ -2879,26 +2891,6 @@
 			)
 		)
 	)
-	(global_label "D0-"
-		(shape input)
-		(at 161.29 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "554dce5c-95af-4716-9b37-6174e4c9e710")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.29 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "3V3"
 		(shape output)
 		(at 187.96 90.17 90)
@@ -3083,26 +3075,6 @@
 			)
 		)
 	)
-	(global_label "D0+"
-		(shape input)
-		(at 161.29 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cae16606-8f70-431c-8e1a-bc4287d2a566")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.29 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI CLOCK 1"
 		(shape input)
 		(at 130.81 147.32 270)
@@ -3181,27 +3153,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TSTPLL/48MCLK"
-		(shape input)
-		(at 161.29 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fae3b542-6597-412a-9988-ca8af5a68928")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.29 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
