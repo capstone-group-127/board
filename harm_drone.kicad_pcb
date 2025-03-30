@@ -182,10 +182,10 @@
 	(net 37 "Net-(J4-POS)")
 	(net 38 "unconnected-(IC1-VBAT-Pad1)")
 	(net 39 "Net-(C30-Pad1)")
-	(net 40 "Net-(IC1-PA14)")
+	(net 40 "SWCLK")
 	(net 41 "unconnected-(IC1-PA3-Pad13)")
 	(net 42 "~{USB_RESET}")
-	(net 43 "Net-(IC1-PA13)")
+	(net 43 "SWDIO")
 	(net 44 "MOSI 1")
 	(net 45 "unconnected-(IC1-PB7-Pad43)")
 	(net 46 "unconnected-(IC1-PF1-OSC_OUT-Pad6)")
@@ -2862,7 +2862,7 @@
 			(pintype "power_in")
 			(uuid "e51c9b2f-6cab-46b5-bfbc-58deab223743")
 		)
-		(model "IS62WVS2568GBLL-45NLI-TR.stp"
+		(model "/models/IS62WVS2568GBLL-45NLI-TR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6119,7 +6119,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 43 "Net-(IC1-PA13)")
+			(net 43 "SWDIO")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "489be37c-0fa2-4cc5-8737-afe7713509e8")
@@ -6130,7 +6130,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 40 "Net-(IC1-PA14)")
+			(net 40 "SWCLK")
 			(pinfunction "Pin_3")
 			(pintype "passive")
 			(uuid "457b85c5-87cc-44fb-bf6d-f9e6dcdf85e3")
@@ -9656,6 +9656,17 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "ad422640-4ac9-4b91-be0c-8607251648b9")
+		)
+		(model "/models/ECS-060-20-4X-DU.step"
+			(offset
+				(xyz -0.2 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
@@ -15789,7 +15800,7 @@
 			(pintype "passive")
 			(uuid "42f6b73f-25be-442c-9ff9-9eee29d45fc2")
 		)
-		(model "KSR221GLFS.stp"
+		(model "/models/KSR221GLFS.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17769,7 +17780,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J8"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "ce61bc21-b942-4a7f-a00e-f6bf585b6d79")
 			(effects
@@ -17780,7 +17791,7 @@
 			)
 		)
 		(property "Value" "USB_Headers"
-			(at 0 9.950001 360)
+			(at 0 9.950001 0)
 			(layer "F.Fab")
 			(uuid "499f84b4-2521-44ea-855a-83f179342a21")
 			(effects
@@ -21703,7 +21714,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R31"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "8b8c0ec7-4123-4c16-b070-4707bc8d6c05")
 			(effects
@@ -21714,7 +21725,7 @@
 			)
 		)
 		(property "Value" "1.5kOhm"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "88dffec9-2f1b-4e78-bbe3-f8cc5b2fc4aa")
 			(effects
@@ -21933,7 +21944,7 @@
 			(uuid "7b2ea619-d6a3-4420-a4d9-954d8571c58c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "703771ae-9c20-4810-9199-1a6ab62a796e")
 			(effects
@@ -23160,7 +23171,7 @@
 			(pintype "passive")
 			(uuid "fc1cc5a8-f059-4fe5-a930-fc3fd3247635")
 		)
-		(model "7447707068.stp"
+		(model "/models/7447707068.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24842,6 +24853,17 @@
 			(pinfunction "VCC")
 			(pintype "power_in")
 			(uuid "776ad0f9-5db5-42e1-9e99-ce1a858bdbcb")
+		)
+		(model "/models/IS62WVS2568GBLL-45NLI-TR.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
@@ -26552,7 +26574,7 @@
 			(at 4.238 -1.75 90)
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 43 "Net-(IC1-PA13)")
+			(net 43 "SWDIO")
 			(pinfunction "PA13")
 			(pintype "passive")
 			(uuid "af474873-a699-4760-be3a-7f3b2dfef958")
@@ -26579,7 +26601,7 @@
 			(at 2.75 -4.238)
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 40 "Net-(IC1-PA14)")
+			(net 40 "SWCLK")
 			(pinfunction "PA14")
 			(pintype "passive")
 			(uuid "ff905e3f-498b-48be-93d5-3f4c3a2af86f")
@@ -26683,7 +26705,7 @@
 			(pintype "passive")
 			(uuid "dcb75cfd-e3cf-422d-853d-9393d50eb985")
 		)
-		(model "LQFP48-7x7mm.step"
+		(model "/models/LQFP48-7x7mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
