@@ -2088,8 +2088,8 @@
 		(uuid "f885a638-79e1-4faa-8ced-9365cf5dff35")
 	)
 	(no_connect
-		(at 161.29 115.57)
-		(uuid "33f4bc6d-44cb-4804-b227-058691b9c5e3")
+		(at 118.11 97.79)
+		(uuid "76833576-c847-4915-891d-c1ef710a8c7f")
 	)
 	(no_connect
 		(at 161.29 105.41)
@@ -2698,6 +2698,16 @@
 			(type default)
 		)
 		(uuid "cf20579d-8e87-41d7-8f61-e254dfd7f488")
+	)
+	(wire
+		(pts
+			(xy 161.29 115.57) (xy 191.77 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2146396-35a5-4929-84ad-7b7290a9acc1")
 	)
 	(wire
 		(pts
@@ -4162,72 +4172,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 101.6 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e2192bf-ab36-4f7d-8c73-361c9c1160cd")
-		(property "Reference" "#PWR04"
-			(at 95.25 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6adef9c2-0a7c-424e-9f86-0d36349d5fb2")
-		)
-		(instances
-			(project "harm_drone"
-				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "group127:0805Capacitor")
 		(at 95.25 82.55 90)
 		(unit 1)
@@ -4796,6 +4740,77 @@
 		)
 	)
 	(symbol
+		(lib_id "group127:PWM_LED")
+		(at 196.85 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82f5b6f0-0c75-4cf4-a5fe-9a7898dbe008")
+		(property "Reference" "D1"
+			(at 193.5616 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PWM_LED"
+			(at 196.1016 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "group127:PWM_LED"
+			(at 196.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b173c81-6080-4b74-a75e-ce6cca7496fb")
+		)
+		(pin "2"
+			(uuid "4c26e0e9-e1ca-4722-b3b9-c71e9668d993")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "group127:0805Capacitor")
 		(at 100.33 121.92 90)
 		(mirror x)
@@ -4910,6 +4925,72 @@
 			(project "harm_drone"
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "892f8929-2835-4c83-bc67-78cdda7586f2")
+		(property "Reference" "#PWR04"
+			(at 205.74 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca47dee1-9fc8-49c7-96e2-6cf9a5eb1aed")
+		)
+		(instances
+			(project "harm_drone"
+				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5580,77 +5661,6 @@
 			(project "harm_drone"
 				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "group127:PWM_LED")
-		(at 104.14 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e09b6834-9161-4f60-9faa-6ca1c9a41cae")
-		(property "Reference" "D1"
-			(at 107.4284 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PWM_LED"
-			(at 104.8884 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "group127:PWM_LED"
-			(at 104.14 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1713194-c36b-4ccd-8757-435f4e55c32e")
-		)
-		(pin "2"
-			(uuid "c8ac2f90-50ab-468b-9ee0-3a95ead75aee")
-		)
-		(instances
-			(project ""
-				(path "/5ce3566e-4e0f-420e-9b0d-3952cd3c63fd"
-					(reference "D1")
 					(unit 1)
 				)
 			)
