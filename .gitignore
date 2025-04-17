@@ -39,3 +39,7 @@ fp-info-cache
 ehthumbs.db
 Thumbs.db
 /#auto_saved_files#
+/bom
+/exports
+/fabrication-toolkit-options.json
+/production
